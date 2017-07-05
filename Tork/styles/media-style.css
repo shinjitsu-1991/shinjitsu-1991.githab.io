@@ -313,6 +313,9 @@ body{
 .latest-news-post-name{
 	font-size: 16px;
 }
+.super-duper-section-main{
+	min-width: auto;
+}
 .about-us-section-main{
 	font-size: 17px;
 }
