@@ -17,6 +17,12 @@ body{
 .about-us-section-head{
 	font-size: 1.6em;
 }
+.quote-section{
+	padding-top: 22px;
+}
+.footer-get-in-touch{
+	font-size: 0.9em;
+}
 }
 @media only screen and (max-width: 768px) {
 body{

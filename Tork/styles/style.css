@@ -4,11 +4,6 @@ body{
 	max-width: 1600px;
 	font-size: 16px;
 }
-*{
-	padding: 0;
-	margin: 0;
-	height: auto;
-}
 @font-face{
 	font-family: OpenSans;
 	src:url(../fonts/open-sans.ttf); 
@@ -29,6 +24,10 @@ body{
 	flex-direction:row;
 	justify-content:center;
 	align-items:center;
+}
+button{
+	text-align: center;
+	outline: none;
 }
 .masthead{
 	width: 100%;
@@ -144,8 +143,8 @@ body{
 .super-duper-section-main{
 	font-size: 1em;
 	line-height: 26px;
-	max-width: 470px;
-	min-width: 420px;
+	max-width: 450px;
+	min-width: 400px;
 	width: 100%;
 	margin-bottom: 36px;
 }
@@ -383,7 +382,7 @@ body{
 }
 .latest-news-post{
 	width: 60%;
-	height: 456px;
+	max-height: 456px;
 	flex-direction:column;
 	justify-content:space-between;
 	align-items:flex-start;
@@ -406,7 +405,7 @@ body{
 	font-weight: 300;
 	font-size: 2em;
 	font-style: italic;
-	line-height: 44px;
+	line-height: 40px;
 	width: 68%;
 	margin-bottom: 30px;
 }
@@ -421,10 +420,12 @@ body{
 	font-size: 0.9375em;
 }
 .latest-news-post-foot{
-	width: 12%;
-	height: 29px;
+	width: auto;
+	height: auto;
 	background-color: #232323;
 	font-size: 0.75em;
+	margin-bottom: 0;
+	padding:8px;
 }
 .your-desing{
 	justify-content:flex-start;
@@ -439,7 +440,7 @@ body{
 	align-items:flex-start;
 	box-sizing:border-box;
 	padding-left: 3.1%;
-	padding-top: 3.235%;
+	padding-top: 2.5%;
 	font-family: OpenSans;
 }
 .your-desing-post-section-head{
@@ -447,12 +448,12 @@ body{
 	font-size: 1.4375em;
 	line-height: 28px;
 	color: #303030;
-	margin-bottom: 23px;
+	margin-bottom: 20px;
 }
 .your-desing-post-section-main{
 	color: #a2b0b7;
 	font-size: 0.875em;
-	line-height: 25px;
+	line-height: 24px;
 	width: 91%;
 }
 .your-desing-img{
@@ -545,7 +546,7 @@ body{
 .footer-get-in-touch-main{
 	font-family: Times New Roman;
 	font-weight: 400;
-	font-size: 0.8125em;
+	font-size: 0.9em;
 	line-height: 24px;
 	margin-bottom: 75px;
 	max-width: 580px;
@@ -554,7 +555,7 @@ body{
 .footer-get-in-touch-links-section{
 	justify-content:space-between;
 	max-width: 515px;
-	width: 72.18%;
+	width: 82.18%;
 }
 .footer-get-in-touch-links{
 	flex-direction:column;
@@ -567,12 +568,12 @@ body{
 }
 .footer-get-in-touch-links-head{
 	font-weight: 600;
-	font-size: 0.8125em;
+	font-size: 0.9em;
 	margin-bottom: 30px;
 }
 .footer-get-in-touch-links-item{
 	list-style: none;
-	font-size: 0.8125em;
+	font-size: 0.9em;
 	margin-bottom: 10px;
 }
 .footer-get-in-touch-links-item:last-child{
