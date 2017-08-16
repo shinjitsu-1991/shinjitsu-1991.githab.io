@@ -10,10 +10,7 @@ body{
 	font-size: 16px;
 	font-family: main;
 }
-*{
-	margin: 0;
-	padding: 0;
-}
+
 .flex-block{
 	display: flex;
 	flex-direction: row;
@@ -352,7 +349,12 @@ button:hover{
 	z-index: 20;
 	opacity: 0.5;
 }
-.contacts_message-menu>.item{
+.contacts_message-menu .item{
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+}
+.contacts_message-menu a>.item{
 	width: 45px;
 	height: 45px;
 	cursor: pointer;
@@ -395,35 +397,6 @@ button:hover{
 	padding:8px;
 	display: none;
 	z-index: 20;
-}
-.message-form{
-	flex-direction: column;
-}
-.message-form>input{
-	margin-bottom: 10px;
-	width: 95%;
-}
-.message-form>textarea{
-	width: 95%;
-	height: 145px;
-	resize: none;
-	margin-bottom: 10px;
-}
-.message>p{
-	color: #fff;
-	margin-bottom: 5px;
-}
-.message-form>button{
-	color: #fff;
-	width: auto;
-	height: auto;
-	padding:8px; 
-	border-radius: 15px;
-	border:none;
-	text-align: center;
-	background-color: #0B0974;
-}
-.message-form input{
 }
 .close{
 	position: relative;
