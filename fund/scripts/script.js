@@ -1,22 +1,22 @@
 //авто-слайдер-1
 
-$('#fader img:gt(0)').hide();
+$('#fader div:gt(0)').hide();
  
 setInterval(function(){
  $('#fader :first-child')
  .fadeTo(1500, 0)
- .next('img')
+ .next('div')
  .fadeTo(1500, 1)
  .end()
  .appendTo('#fader');
 }, 4600);
 
-$('#fader2 img:gt(0)').hide();
+$('#fader2 div:gt(0)').hide();
  
 setInterval(function(){
  $('#fader2 :first-child')
  .fadeTo(1900, 0)
- .next('img')
+ .next('div')
  .fadeTo(1900, 1)
  .end()
  .appendTo('#fader2');
@@ -78,7 +78,7 @@ $(function() {
     slideCount = $('.slider-1 img').length,               // Количество слайдов
     prev = $('.slider-box-1 .prev-1'),                      // Кнопка "назад"
     next = $('.slider-box-1 .next-1'),                      // Кнопка "вперед"
-    sliderInterval = 3300,                              // Интервал смены слайдов
+    sliderInterval = 100000,                              // Интервал смены слайдов
     animateTime = 1000,                                 // Время смены слайдов
     course = 1,                                         // Направление движения слайдера (1 или -1)
     margin = - slideWidth;                              // Первоначальное смещение слайдов
@@ -139,7 +139,7 @@ $(function() {
     slideCount = $('.slider-2 img').length,               // Количество слайдов
     prev = $('.slider-box-2 .prev-2'),                      // Кнопка "назад"
     next = $('.slider-box-2 .next-2'),                      // Кнопка "вперед"
-    sliderInterval = 3300,                              // Интервал смены слайдов
+    sliderInterval = 100000,                              // Интервал смены слайдов
     animateTime = 1000,                                 // Время смены слайдов
     course = 1,                                         // Направление движения слайдера (1 или -1)
     margin = - slideWidth;                              // Первоначальное смещение слайдов
@@ -200,7 +200,7 @@ $(function() {
     slideCount = $('.slider-3 img').length,               // Количество слайдов
     prev = $('.slider-box-3 .prev-3'),                      // Кнопка "назад"
     next = $('.slider-box-3 .next-3'),                      // Кнопка "вперед"
-    sliderInterval = 3300,                              // Интервал смены слайдов
+    sliderInterval = 100000,                              // Интервал смены слайдов
     animateTime = 1000,                                 // Время смены слайдов
     course = 1,                                         // Направление движения слайдера (1 или -1)
     margin = - slideWidth;                              // Первоначальное смещение слайдов
@@ -289,64 +289,64 @@ $(".contacts_message-menu").mouseout(function(){
 //принцип работы-отображение текста
 
 $('.specialy-item-1 .specialy-main-img').click(function(){
-	$('.specialy-item-2').hide(600);
-	$('.specialy-item-3').hide(600);
-	$('.specialy-item-4').hide(600);
+	$('.specialy-item-2').hide();
+	$('.specialy-item-3').hide();
+	$('.specialy-item-4').hide();
 	$('.specialy-item-1 div').css({'display':'flex'});
-	$('#specialy-close-1').show(600);
+	$('#specialy-close-1').show();
 });
 
 $('#specialy-close-1').click(function(){
-	$('.specialy-item-1 div').hide(600);
-	$('#specialy-close-1').hide(600);
+	$('.specialy-item-1 div').hide();
+	$('#specialy-close-1').hide();
 	$('.specialy-item-2').css({'display':'flex'});
 	$('.specialy-item-3').css({'display':'flex'});
 	$('.specialy-item-4').css({'display':'flex'});
 });
 
 $('.specialy-item-2 .specialy-main-img').click(function(){
-	$('.specialy-item-1').hide(600);
-	$('.specialy-item-3').hide(600);
-	$('.specialy-item-4').hide(600);
+	$('.specialy-item-1').hide();
+	$('.specialy-item-3').hide();
+	$('.specialy-item-4').hide();
 	$('.specialy-item-2 div').css({'display':'flex'});
-	$('#specialy-close-2').show(600);
+	$('#specialy-close-2').show();
 });
 
 $('#specialy-close-2').click(function(){
-	$('.specialy-item-2 div').hide(600);
-	$('#specialy-close-2').hide(600);
+	$('.specialy-item-2 div').hide();
+	$('#specialy-close-2').hide();
 	$('.specialy-item-1').css({'display':'flex'});
 	$('.specialy-item-3').css({'display':'flex'});
 	$('.specialy-item-4').css({'display':'flex'});
 });
 
 $('.specialy-item-3 .specialy-main-img').click(function(){
-	$('.specialy-item-2').hide(600);
-	$('.specialy-item-1').hide(600);
-	$('.specialy-item-4').hide(600);
+	$('.specialy-item-2').hide();
+	$('.specialy-item-1').hide();
+	$('.specialy-item-4').hide();
 	$('.specialy-item-3 div').css({'display':'flex'});
-	$('#specialy-close-3').show(600);
+	$('#specialy-close-3').show();
 });
 
 $('#specialy-close-3').click(function(){
-	$('.specialy-item-3 div').hide(600);
-	$('#specialy-close-3').hide(600);
+	$('.specialy-item-3 div').hide();
+	$('#specialy-close-3').hide();
 	$('.specialy-item-2').css({'display':'flex'});
 	$('.specialy-item-1').css({'display':'flex'});
 	$('.specialy-item-4').css({'display':'flex'});
 });
 
 $('.specialy-item-4 .specialy-main-img').click(function(){
-	$('.specialy-item-2').hide(600);
-	$('.specialy-item-3').hide(600);
-	$('.specialy-item-1').hide(600);
+	$('.specialy-item-2').hide();
+	$('.specialy-item-3').hide();
+	$('.specialy-item-1').hide();
 	$('.specialy-item-4 div').css({'display':'flex'});
-	$('#specialy-close-4').show(600);
+	$('#specialy-close-4').show();
 });
 
 $('#specialy-close-4').click(function(){
-	$('.specialy-item-4 div').hide(600);
-	$('#specialy-close-4').hide(600);
+	$('.specialy-item-4 div').hide();
+	$('#specialy-close-4').hide();
 	$('.specialy-item-2').css({'display':'flex'});
 	$('.specialy-item-3').css({'display':'flex'});
 	$('.specialy-item-1').css({'display':'flex'});
