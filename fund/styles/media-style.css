@@ -455,16 +455,25 @@
 	}
 	.slider-box,.slider img{
 		width: 320px;
-		height: 180px;
+		height: 220px;
 	}
 	.slider{
-		height: 180px;
+		height: 220px;
 	}
 	.slider-box .prev, .slider-box .next{
 		top: -110px;
 	}
 	.specialy-item div{
 		font-size: 0.8em;
+	}
+}
+@media only screen and (max-width: 480px){
+	.slider-box,.slider img{
+		width: 320px;
+		height: 220px;
+	}
+	.slider{
+		height: 220px;
 	}
 }
 @media only screen and (max-width: 460px){
