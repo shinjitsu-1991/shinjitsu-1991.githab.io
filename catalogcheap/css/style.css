@@ -10,14 +10,9 @@ body{
    background: url('../img/bg-1.png') no-repeat center 40%;
     background-size: cover;
 }
-.main .logo img{
-   width: 100%;
-    max-width: 210px;
-    margin-top: 30px;
-}
 .main h3{
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 40px;
     color: #fff;
     font-weight: 500;
     /*text-shadow: 5px 5px 5px rgba(0,0,0,.2);*/
@@ -26,12 +21,12 @@ body{
     font-size: 60px;
     font-weight: bold;
     color: #f4d569;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .main .inner{
     background-color: rgba(50,50,50,.3);
     padding: 10px 40px 25px;
-    margin: 10px 0 60px;
+    margin: 10px 0 20px;
     border-radius: 8px;
 }
 .form-control {
