@@ -17,6 +17,7 @@
 }
 body{
 	font-size: 16px;
+	font-family: myriad;
 }
 button{
 	outline: none;
@@ -142,12 +143,66 @@ header{
 .navi a:hover{
 	color: #e8d34b;
 }
-/*HEADER end*/
+.navi a:before{
+	content:"";
+	width: 14px;
+	height: 2px;
+	background: radial-gradient(rgba(222,200,57,1),rgba(222,200,57,0));
+	display: block;
+	color: #fff;
+	position: relative;
+	margin-bottom: 2px;
+	opacity: 0;
+	transition: .3s;
+}
+.navi a:after{
+	content:"";
+	width: 14px;
+	height: 2px;
+	background: radial-gradient(rgba(222,200,57,1),rgba(222,200,57,0));
+	display: block;
+	color: #fff;
+	position: relative;
+	left:100%;
+	transform: translateX(-100%);
+	margin-top: 2px;
+	opacity: 0;
+	transition: .3s;
+}
+.navi a:hover:after,
+.navi a:hover:before{
+	opacity: 1;
+}
+.button-block{
+	position: absolute;
+	height: 30px;
+	width: 100px;
+	color: #fff;
+	font-size: 36px;
+	top: 400px;
+}
+.button-block .next,
+.button-block .prev{
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 13px;
+	width: 26px;
+	top: 10px;
+}
+.button-block .next{
+	right: 25px;
+	background-image: url(../img/head-but-next.png);
+}
+.button-block .prev{
+	left: 25px;
+	background-image: url(../img/head-but-prev.png);
+}
+
 /*head-baner start*/
 .head-baner{
 	background-image: url(../img/head-baner-adventages-bg.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	box-sizing: border-box;
 	padding:270px 0 145px 0;
 }
@@ -161,8 +216,90 @@ header{
 }
 .head-baner__content span.head{
 	font-size: 2.25em;
+	font-weight: bold;
+	line-height: 66px;
+}
+.head-baner__content span.posthead{
+	font-size: .75em;
+	font-weight: 200;
 }
 /*head-baner end*/
+/*main-content start*/
+.main-content{
+	width: 100%;
+	justify-content: flex-start;
+	align-items: flex-start;
+	box-sizing: border-box;
+	padding: 85px 0 80px 0;
+}
+.main-content .aside{
+	width: 33%;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.main-content .aside>.head,
+.main-content .aside>.tabs-head{
+	font-size: .94em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.main-content .aside>.head:before,
+.main-content .aside>.tabs-head:before{
+	content: "";
+	height: 16px;
+	width: 5px;
+	position: relative;
+	right: 15px;
+	background-color: #dec839;
+	display: inline-block;
+}
+.main-content .aside>.main{
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 50px;
+	font-weight: 400;
+	width: 80%;
+}
+.main-content .aside li{
+	list-style: none;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.main-content__section{
+	width: 65.7%;
+}
+.free-retake__img{
+	background-image: url(../img/free-retake-img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 470px;
+	width: 100%;
+	margin-bottom: 45px;
+}
+.main-content__section span.head{
+	font-size: 1.125em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+.main-content__section span.date{
+	font-size: .875em;
+	margin-bottom: 35px;
+}
+.main-content__section p{
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 25px;
+}
+.main-content__section p.whith-indent{
+	margin-left: 45px;
+}
+
+/*main-content end*/
 /*we-invite start*/
 .we-invite{
 	width: 100%;
