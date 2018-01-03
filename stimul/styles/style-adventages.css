@@ -26,6 +26,7 @@ button{
 p{
 	font-family: myriad;
 	font-size: 1em;
+	line-height: 1.5em;
 }
 a{
 	text-decoration: none;
@@ -272,7 +273,8 @@ header{
 .main-content__section{
 	width: 65.7%;
 }
-.free-retake__img{
+.free-retake__img,
+.section__img{
 	background-image: url(../img/free-retake-img.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -280,23 +282,75 @@ header{
 	width: 100%;
 	margin-bottom: 45px;
 }
-.main-content__section span.head{
+.main-content__section h2{
 	font-size: 1.125em;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 16px;
 }
-.main-content__section span.date{
+.main-content__section h3{
 	font-size: .875em;
 	margin-bottom: 35px;
+	font-weight: 400;
 }
-.main-content__section p{
+.whith-indent{
 	font-size: 1em;
 	line-height: 1.5em;
 	margin-bottom: 25px;
-}
-.main-content__section p.whith-indent{
+	margin-top: 25px;
 	margin-left: 45px;
+	height: auto;
+	justify-content: flex-start;
+}
+.vertical-line{
+	height: 100px;
+	width: 6px;
+	background-color: #dec839;
+	margin-right: 20px;
+}
+.main-content__section .social{
+	margin-top: 45px;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.social span{
+	font-size: .93em;
+	font-weight: bold;
+}
+.facebook,
+.vk{
+	height: 16px;
+	width: 16px;
+	margin-left: 20px;
+}
+.facebook a,
+.vk a{
+	font-size: 1em;
+	color: #acacac;
+	text-decoration: none;
+	transition: .3s;
+}
+.facebook a:hover,
+.vk a:hover{
+	color: #dec839;
+}
+.call-manager__img{
+	background-image: url(../img/call-manage.png);
+}
+.whith-indent ul{
+	list-style: none;
+}
+.online-study__img{
+	background-image: url(../img/online-study.png);
+}
+.online-pay__img{
+	background-image: url(../img/online-pay.png);
+}
+.test-drive__img{
+	background-image: url(../img/test-drive.png);
+}
+.fast-lesson__img{
+	background-image: url(../img/fast-lesson.png);
 }
 
 /*main-content end*/
