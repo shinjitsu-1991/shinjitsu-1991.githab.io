@@ -14,6 +14,22 @@
 	<title>Автошкола СТИМУЛ / Инструкторы</title>
 </head>
 <body>
+	<div class="online-pay-form flex-block">
+		<div class="pay-form">
+			<div class="head flex-block">
+				<span>оплата онлайн</span>
+				<div id="online-close" class="close"></div>
+			</div>
+			<form class="flex-block" action="">
+				<input placeholder="Имя" class="online-pay__name" type="text">
+				<input placeholder="E-mail" class="online-pay__email" type="text">
+				<input placeholder="Телефон" class="online-pay__phone" type="text">
+				<input placeholder="Сумма" class="online-pay__sum" type="text">
+				<input placeholder="Коментарий" class="online-pay__coment" type="text">
+				<button>отправить</button>
+			</form>
+		</div>
+	</div>
 	<header>
 		<div class="header-adaptiv">
 			<div class="header-adaptiv__main flex-block">
@@ -25,7 +41,7 @@
 						<li><a class="flex-block" href=""><span>расписание</span> ></a></li>
 						<li><a class="flex-block" href=""><span>калькулятор</span> ></a></li>
 						<li><a class="flex-block" href=""><span>отзывы</span> ></a></li>
-						<li><a class="flex-block" href=""><span>инструкторы</span> ></a></li>
+						<li><a class="flex-block" href="index-instructors.html"><span>инструкторы</span> ></a></li>
 						<li><a class="flex-block" href=""><span>контакты</span> ></a></li>
 						<li><a class="flex-block" href=""><span>оплата онлайн</span> ></a></li>
 						<li><a class="flex-block" href=""><span>филиалы</span> ></a></li>
@@ -47,7 +63,7 @@
 			<div class="head-content-top flex-block">
 			<div class="contacts flex-block">
 					<div class="email">
-						<img src="img/email.png" alt="">
+						<img src="img/email.svg" alt="">
 						<span><a href="mailto:stimul-bvi@yandex.ru">stimul-bvi@yandex.ru</a></span>
 						</div>
 						<div class="phone">
@@ -57,12 +73,12 @@
 						</div>
 					</div>
 			<div class="info flex-block">
-					<div class="payment">
-						<img src="img/card.png" alt="">
+					<div id="payment" class="payment">
+						<img src="img/card.svg" alt="">
 						<span>Оплата онлайн</span>
 					</div>
 					<div class="branches">
-						<img src="img/branches.png" alt="">
+						<img src="img/branches.svg" alt="">
 						<span>Филиалы</span>
 					</div>
 			</div>
@@ -85,8 +101,108 @@
 				</ul>
 		</div>
 	</header>
-	<div class="head-baner">
-		div.head-baner__content>span.head+span
+	<div class="head-baner flex-block">
+		<span class="head">инструкторы</span>
+		<span class="posthead">Главная / инструктор</span>
+	</div>
+	<div class="main-content wrapper">
+		<h1>Опытные инструкторы</h1>
+		<h2>У нас работают только опытные квалифицированные инструкторы со стажем от 10 лет и более</h2>
+		<div class="posthead flex-block">
+			<div class="line"></div>
+			<img src="img/trafficlight.png" alt="">
+			<div class="line"></div>
+		</div>
+		<div class="instructors-adaptive-content">
+			<div class="conteiner-adaptive__item">
+					<div class="galery flex-block">
+						<a data-lightbox="image-41" data-title="" href="img/instr-photo-1.png">
+							<div class="galery__item galery__item-1"></div>
+						</a>
+						<a href="img/instr-photo-2.png" data-lightbox="image-41" data-title="" >
+							<div class="galery__item galery__item-2"></div>
+						</a>
+						<a href="img/instr-photo-3.png" data-lightbox="image-41" data-title="" >
+							<div class="galery__item galery__item-3"></div>
+						</a>
+						<a href="img/instr-photo-4.png" data-lightbox="image-41" data-title="" >
+							<div class="galery__item galery__item-4"></div>
+						</a>
+					</div>
+					<a data-lightbox="image-41" data-title="" href="img/instructor-face.png">
+						<img src="img/instructor-face.png" alt="" class="instr-photo-adaptiv">
+					</a>
+					<div class="main-text-adaptiv">
+						<span class="head">Сяткин юрий</span>
+						<span class="age">31 год</span><br>
+						<div class="pull"></div>
+						<span class="main">
+							У Сяткина Юрия  более 15 лет опыта в обучении новичков и тех, кто уже умеет управлять автомобилем, но пока не чувствует в себе моральной готовности. Он  хорошо разбираются в психологии начинающих водителей и понимает, что самая главная задача — придать человеку уверенности в своих силах и показать, что правильное вождение — залог безопасности любого участника дорожного движения.
+						</span>
+					</div>
+					<div class="networks networks-adaptiv flex-block">
+						<a href="">
+							<div class="network fb flex-block">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</div>
+						</a>
+						<a href="">
+							<div class="network inst flex-block">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</div>
+						</a>
+						<a href="">
+							<div class="network vk flex-block">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+		</div>
+		<div class="instructors-content">
+			<div class="instructors-content-main flex-block">
+				<div class="infor flex-block">
+					<span class="head">Сяткин юрий</span>
+					<span class="age">31 год</span>
+					<p>У Сяткина Юрия  более 15 лет опыта в обучении новичков и тех, кто уже умеет управлять автомобилем, но пока не чувствует в себе моральной готовности. Он  хорошо разбираются в психологии начинающих водителей и понимает, что самая главная задача — придать человеку уверенности в своих силах и показать, что правильное вождение — залог безопасности любого участника дорожного движения.</p>
+					<div class="networks flex-block">
+							<a href="">
+								<div class="network fb flex-block">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								</div>
+							</a>
+							<a href="">
+								<div class="network inst flex-block">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								</div>
+							</a>
+							<a href="">
+								<div class="network vk flex-block">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+						</div>
+							</a>
+						</div>
+						<div class="instructor-galery flex-block">
+							<a data-lightbox="image-11" data-title=""  href="img/instr-photo-1.png"><img class="instructor-galery-item item-1" src="img/instr-photo-1.png" alt=""></a>
+							<a data-lightbox="image-11" data-title="" href="img/instr-photo-2.png"><img class="instructor-galery-item item-2" src="img/instr-photo-2.png" alt=""></a>
+							<a data-lightbox="image-11" data-title="" href="img/instr-photo-3.png"><img class="instructor-galery-item item-3" src="img/instr-photo-3.png" alt=""></a>
+							<a data-lightbox="image-11" data-title="" href="img/instr-photo-4.png"><img class="instructor-galery-item item-4" src="img/instr-photo-4.png" alt=""></a>
+						</div>
+					</div>
+				<div class="photo"></div>
+			</div>	
+		</div>	
+		<div class="bx-pagination">
+			<div class="bx-pagination-conteiner">
+				<ul class="flex-block">
+					<li><</li>
+					<li class="bx-pag-prev">1</li>
+					<li class="bx-pag-active">2</li>
+					<li class="bx-pag-next">3</li>
+					<li class="">></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<div class="we-invite">
 		<div class="we-invite-content wrapper flex-block">
@@ -220,11 +336,10 @@
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="scripts/tabs.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="scripts/lightbox-plus-jquery.min.js"></script>
 	<script src="scripts/jquery.magnific-popup.min.js"></script>
-	<script src="scripts/instructors-script.js"></script>
+	<script src="scripts/instructors.js"></script>
 </body>
 </html>

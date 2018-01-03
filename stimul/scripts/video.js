@@ -121,5 +121,20 @@ var swiperQuote = new Swiper('.quote-wrapper', {
     $('.head-content-main>.content').css({'visibility':'visible'});
  });
 
+ //datapicker ini
 
-    	
+ $( function() {
+    $( ".form-date" ).datepicker();
+    
+  } );
+
+
+//оплата онлайн форма
+
+$('#payment').click(function(){
+    $('.online-pay-form').css({'display':'flex'});
+});
+
+$('#online-close').click(function(){
+    $('.online-pay-form').css({'display':'none'});
+});

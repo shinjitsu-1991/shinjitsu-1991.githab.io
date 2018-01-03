@@ -272,6 +272,7 @@ header{
 }
 .main-content__section{
 	width: 65.7%;
+	max-width: 775px;
 }
 .free-retake__img,
 .section__img{
@@ -292,19 +293,21 @@ header{
 	font-size: .875em;
 	margin-bottom: 35px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 .whith-indent{
 	font-size: 1em;
 	line-height: 1.5em;
 	margin-bottom: 25px;
 	margin-top: 25px;
-	margin-left: 45px;
+	margin-left: 50px;
 	height: auto;
 	justify-content: flex-start;
+	align-items: stretch;
 }
 .vertical-line{
-	height: 100px;
-	width: 6px;
+	height: auto;
+	width: 5px;
 	background-color: #dec839;
 	margin-right: 20px;
 }
@@ -343,16 +346,44 @@ header{
 .online-study__img{
 	background-image: url(../img/online-study.png);
 }
+.online-study .vertical-line{
+	width: 3px;
+}
 .online-pay__img{
 	background-image: url(../img/online-pay.png);
 }
 .test-drive__img{
 	background-image: url(../img/test-drive.png);
 }
+.test-drive .vertical-line{
+	width: 3px;
+	height: 120px;
+}
+.test-drive li:before{
+	content: "";
+	display: inline-block;
+	width: 7px;
+	height: 1.5px;
+	background-color: #000;
+	position: relative;
+	bottom: 4px;
+	margin-right: 4px;
+}
 .fast-lesson__img{
 	background-image: url(../img/fast-lesson.png);
 }
-
+.fast-lesson ol{
+	margin-left: 15px;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.active-tab{
+	color: #dec839;
+}
 /*main-content end*/
 /*we-invite start*/
 .we-invite{

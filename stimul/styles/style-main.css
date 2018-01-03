@@ -40,6 +40,83 @@ a{
 	max-width: 1180px;
 	margin:0 auto;
 }
+.online-pay-form{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(5,5,5,.5);
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 1000;
+	display: none;
+}
+.pay-form{
+	position: fixed;
+	z-index: 1001;
+	border-radius: 3px;
+}
+.pay-form .head{
+	background-color: #dec839;
+	width: 100%;
+	height: 37px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding:0 19px 0 30px;
+}
+.pay-form .head>.close{
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pay-form .head span{
+	text-transform: uppercase;
+	color: #fff;
+}
+.pay-form form{
+	flex-direction: column;
+	box-sizing: border-box;
+	padding:22px 20px;
+	background-color: #fff;
+}
+.pay-form input{
+	margin-bottom: 10px;
+	width: 230px;
+	height: 28px;
+	border: 1px solid #aaaaaa;
+	border-radius: 3px;
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+	box-sizing: border-box;
+	padding: 3px 3px 3px 25px;
+	color: #000;
+}
+.online-pay__name{
+	background-image: url(../img/form-name-img.png);
+}
+.online-pay__email{
+	background-image: url(../img/form-email-img.png);
+}
+.online-pay__phone{
+	background-image: url(../img/form-online-phone.png);
+}
+.online-pay__sum{
+	background-image: url(../img/form-sum-img.png);
+}
+.online-pay__coment{
+	background-image: url(../img/form-coment.png);
+}
+.pay-form button{
+	height: 33px;
+	width: 230px;
+	border:none;
+	border-radius: 3px;
+	background-color: #dec839;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .93em;
+}
 /*HEADER start*/
 header{
 	position: absolute;
@@ -257,6 +334,14 @@ header{
 }
 .form-category{
 	background: url(../img/form-category-img.png) no-repeat 7% 50%,rgba(51,51,51,.5);
+}
+#ui-datepicker-div{
+	background-color: rgba(5,5,5,.5);
+}
+.ui-datepicker .ui-datepicker-header,
+.ui-datepicker table,
+.ui-datepicker table a{
+	color: #fff;
 }
 .get-course-form. .form-time,
 .get-course-form .form-course{
