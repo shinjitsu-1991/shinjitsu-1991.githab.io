@@ -867,6 +867,8 @@ h2{
 	height: 520px;
 	background-image: url(../img/quote-bg.png);
 	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .quote-wrapper{
 	flex-direction: row;
