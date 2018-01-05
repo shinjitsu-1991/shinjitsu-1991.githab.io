@@ -662,6 +662,10 @@
 	}
 }
 @media only screen and (max-width: 480px){
+	.head-content-main .content button{
+		font-size: 1.4em;
+		padding:10px 15px;
+	}
 	.content-row .text p:first-child{
 		font-size: 1.5em;
 	}
@@ -670,9 +674,8 @@
 	}
 }
 @media only screen and (max-width: 414px){
-	.head-content-main .content button{
-		font-size: 1.4em;
-		padding:10px 15px;
+	.head-content-main .content .posthead{
+		font-size: 3em;
 	}
 	.content-row{
 		flex-wrap: wrap;
@@ -704,6 +707,12 @@
 	.galery-content-block>a{
 		height: 250px;
 	}
+	.instructors .conteiner-adaptive{
+		padding: 0 10px;
+	}
+	.quote-line{
+		display: none;
+	}
 	.quote-text span{
 		width: 200%;
 		text-align: center;
@@ -712,10 +721,7 @@
 		top: 42%;
 	}
 }
-@media only screen and (max-width: 390px){
-	.instructors-adaptiv-buttons{
-		top: 40%;
-	}	
+@media only screen and (max-width: 390px){	
 	.popular-questions-main{
 		padding:0 5px;
 	}
@@ -727,11 +733,11 @@
 		font-size: 2em;
 	}
 	.head-content-main .content .posthead{
-		font-size: 2.8em;
+		font-size: 2.6em;
 	}
 	.head-content-main .content .main{
 		width: 90%;
-		font-size: 1.6em;
+		font-size: 1.5em;
 	}
 	.header-adaptiv__main button{
 		margin-right: 0;
@@ -740,9 +746,18 @@
 		padding:8px 12px;
 	}
 	.content__octagon{
-		height: 320px;
-		width: 320px;
+		height: 300px;
+		width: 300px;
 		margin: 0 auto;
+	}
+	.galery{
+		flex-wrap: wrap;
+	}
+	.galery__item{
+		width: 120px;
+		height: 120px;
+		margin: 0 auto;
+		margin-bottom: 15px;
 	}
 	h2{
 		font-size: 1.4em;
@@ -753,11 +768,9 @@
 	.quote-item img{
 		height: 100px;
 	}
-	.quote-line{
-		display: none;
-	}
+	
 	.instructors-adaptiv-buttons{
-		top: 36%;
+		top: 50%;
 	}
 	.footer-social-item .item-1,
 	.footer-social-item .item-2,
@@ -773,12 +786,51 @@
 		font-size: 1.4em;
 	}
 }
+@media only screen and (max-width: 360px){
+	.head-content-main .content .head{
+		font-size: 1.8em;
+	}
+	.head-content-main .content .posthead{
+		font-size: 2.4em;
+	}
+	.head-content-main .content .main{
+		width: 90%;
+		font-size: 1.4em;
+		width: 100%;
+	}
+	.instructors-adaptiv-buttons{
+		top: 48%;
+	}
+	.content__octagon{
+		height: 280px;
+		width: 280px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 350px){
+	.instructors-adaptiv-buttons{
+		top: 45%;
+	}
+}
 @media only screen and (max-width: 320px){
+	.button-block{
+		top: 650px;
+	}
+	.instructors-adaptiv-buttons{
+		top: 42%;
+	}
+	.our-adventages>.head, .our-programs>.head, h1{
+		font-size: 2.3em;
+	}
 	.our-programs .content{
 		padding:0;
 	}
 	.programs-content-item{
 		margin:10px auto;
+	}
+	.content__octagon{
+		height: 260px;
+		width: 260px;
 	}
 	.head-content-main .content .posthead{
 		font-size: 2.6em;
