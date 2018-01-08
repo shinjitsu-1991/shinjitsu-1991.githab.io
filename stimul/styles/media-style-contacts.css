@@ -142,11 +142,12 @@
 }
 @media only screen and (max-width: 750px){
 	.content{
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 	.aside{
 		margin-left: 7.3%;
 		width: 90%;
+		margin-top: 50px;
 	}
 	.aside img{
 		height: 105px;

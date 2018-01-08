@@ -138,3 +138,21 @@ $('#payment').click(function(){
 $('#online-close').click(function(){
     $('.online-pay-form').css({'display':'none'});
 });
+
+ //онлайн запись
+
+$('.online-note').click(function(){
+    $('.online-note-form').css({'display':'flex'});
+});
+
+$('.online-note-close').click(function(){
+    $('.online-note-form').css({'display':'none'});
+});
+
+
+ //datapicker ini
+
+ $( function() {
+    $( "#form-note-date" ).datepicker();
+    
+  } );

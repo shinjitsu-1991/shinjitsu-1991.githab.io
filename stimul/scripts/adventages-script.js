@@ -55,3 +55,31 @@ function showContent(b){
     $('.head-baner__content').css({'visibility':'visible'});
     $('.head-baner').css({'height':'auto'});
  });
+
+ //оплата онлайн форма
+
+$('#payment').click(function(){
+    $('.online-pay-form').css({'display':'flex'});
+});
+
+$('#online-close').click(function(){
+    $('.online-pay-form').css({'display':'none'});
+});
+
+ //онлайн запись
+
+$('#online-note').click(function(){
+    $('.online-note-form').css({'display':'flex'});
+});
+
+$('.online-note-close').click(function(){
+    $('.online-note-form').css({'display':'none'});
+});
+
+
+ //datapicker ini
+
+ $( function() {
+    $( "#form-note-date" ).datepicker();
+    
+  } );

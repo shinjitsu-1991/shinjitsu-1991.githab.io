@@ -26,47 +26,7 @@ $('#online-close').click(function(){
     $('.head-baner').css({'height':'auto'});
  });
 
- //табы
-
- var tab;
-var tabContent;
-
-window.onload=function(){
-    tabContent=document.getElementsByClassName('section');
-    tab=document.getElementsByClassName('tab');
-    
-    hideContent(1);
-}
-
-function hideContent(a){
-    for(var i=a;i<tabContent.length;i++){
-        tabContent[i].classList.remove('show');
-        tabContent[i].classList.add('hide');
-        tab[i].classList.remove('active-tab');
-    }
-}
-
-document.getElementById('tabs').onclick=function(event){
-    var target=event.target;
-    if(target.className=='tab'){
-        for(var i=0;i<tab.length;i++){
-            if(target==tab[i]){
-                showContent(i);
-                break;
-            }
-        }
-    }
-}
-
-function showContent(b){
-    if(tabContent[b].classList.contains('hide')){
-        hideContent(0);
-        tab[b].classList.add('active-tab');
-        tabContent[b].classList.remove('hide');
-        tabContent[b].classList.add('show');
-    }
-}
-
+ 
  //онлайн запись
 
 $('.online-note').click(function(){
@@ -84,5 +44,26 @@ $('.online-note-close').click(function(){
     $( "#form-note-date" ).datepicker();
     
   } );
+
+ //аккордион
+ 
+  $(document).ready(function(){
+    $('.popular-questions-accordion').not(':first').hide();
+    $('.popular-questions-accordion>span').click(function(){
+        var findContent=$(this).next('.accordion-content');
+        var close=$(this).closest('.popular-questions-accordion');
+        if (findContent.is(':visible')) {
+            findContent.slideUp(500);
+            $(this).removeClass('active');
+        $('.popular-questions-accordion>span').removeClass('active');
+        }
+        else{
+            close.find('.accordion-content').slideUp(500);
+            findContent.slideDown(500);
+        $('.popular-questions-accordion>span').removeClass('active');
+            $(this).addClass('active');         
+        }
+    });
+  });
 
 

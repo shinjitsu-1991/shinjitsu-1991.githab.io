@@ -42,6 +42,132 @@ a{
 	max-width: 1180px;
 	margin:0 auto;
 }
+.online-pay-form,
+.online-note-form{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(5,5,5,.5);
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 1000;
+	display: none;
+}
+.pay-form{
+	position: fixed;
+	z-index: 1001;
+	border-radius: 3px;
+}
+.pay-form .head{
+	background-color: #dec839;
+	width: 100%;
+	height: 37px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding:0 19px 0 30px;
+}
+.pay-form .head>.close,
+.online-note-close{
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pay-form .head span{
+	text-transform: uppercase;
+	color: #fff;
+}
+.pay-form form{
+	flex-direction: column;
+	box-sizing: border-box;
+	padding:22px 20px;
+	background-color: #fff;
+}
+.pay-form input,
+.online-note-form select{
+	margin-bottom: 10px;
+	width: 230px;
+	height: 28px;
+	border: 1px solid #aaaaaa;
+	border-radius: 3px;
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+	box-sizing: border-box;
+	padding: 3px 3px 3px 25px;
+	color: #000;
+}
+.online-pay__name{
+	background-image: url(../img/form-name-img.png);
+}
+.online-pay__email{
+	background-image: url(../img/form-email-img.png);
+}
+.online-pay__phone{
+	background-image: url(../img/form-online-phone.png);
+}
+.online-pay__sum{
+	background-image: url(../img/form-sum-img.png);
+}
+.online-pay__coment{
+	background-image: url(../img/form-coment.png);
+}
+.form-name{
+	background: url(../img/form-name-img.png) no-repeat 3% 50%;
+}
+.form-email{
+	background: url(../img/form-email-img.png) no-repeat 3% 50%;
+}
+.form-phone{
+	background: url(../img/form-phone-img.png) no-repeat 3% 50%;
+}
+.form-time{
+	background: url(../img/form-time-img.png) no-repeat 7% 50%;
+}
+.form-date{
+	background: url(../img/form-date-img.png) no-repeat 7% 50%;
+}
+.form-course{
+	background: url(../img/form-course-img.png);
+background-repeat: no-repeat;
+background-position: 7% 50%;
+}
+.form-category{
+	background: url(../img/form-category-img.png) no-repeat 7% 50%;
+}
+.online-note-form select,
+.online-note-form input.form-date{
+	width: 110px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	padding: 3px 3px 3px 25px;
+	color: #aaa;
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	height: 28px;
+}
+.online-note-form form>div{
+	justify-content: space-between;
+	width: 100%;
+}
+.pay-form button{
+	height: 33px;
+	width: 230px;
+	border:none;
+	border-radius: 3px;
+	background-color: #dec839;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .93em;
+}
+#ui-datepicker-div{
+	background-color: rgba(5,5,5,.7);
+}
+.ui-datepicker .ui-datepicker-header,
+.ui-datepicker table,
+.ui-datepicker table a{
+	color: #fff;
+}
 /*HEADER start*/
 header{
 	position: absolute;
@@ -50,6 +176,9 @@ header{
 }
 .header-adaptiv{
 	display: none;
+}
+.header-adaptiv__main__start .logo a{
+	text-decoration: none;
 }
 .header-adaptiv__main__start .logo p:first-child{
 	font-size: .93em;

@@ -20,11 +20,15 @@
 	}
 }
 @media only screen and (max-width: 1024px){
-	.main-content-wrap{
-		flex-direction: column;
+	.our-info{
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 30px 0 20px 0;
 	}
-	.section-wrap{
-		width: 100%;
+	.our-info-item{
+		margin: 0 auto;
+		width: 40%;
+		margin-bottom: 50px;
 	}
 }
 @media only screen and (max-width: 980px){
@@ -149,62 +153,101 @@
 	.head-baner .content span.head{
 		font-size: 3.4em;
 	}
-	.main-content{
-		flex-direction: column;
-		padding-left: 4%;
-		padding-right: 4%;
+	.our-info{
+		padding: 60px 0 80px 0;
+		background-image: url(../img/our-info-adaptiv-bg.png);
 	}
-	.main-content .aside{
-		width: 100%;
-		margin-bottom: 110px;
+	.our-info-item{
+		width: 50%;
 	}
-	.main-content .aside .head{
-		font-size: 1.56em;
+	.our-info-item .quant{
+		font-size: 4em;
+		font-weight: bold;
+		font-family: myriad;
 	}
-	.main-content .aside li{
-		font-size: 1.875em;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
+	.our-info-item img{
+		height: 65px;
 	}
-	.main-content .aside li span{
-		display: block;
+	.our-info-item .text{
+		font-size: 1.6em;
+		width: 40%;
 	}
-	.aside li.active-tab span{
-		transform: rotate(90deg);
+	.our-info-item .text p{
+		text-align: center;
 	}
 }
-@media only screen and (max-width: 780px){
-	.aside{
+@media only screen and (max-width: 750px){
+	h1{
+		font-size: 2.8em;
+		text-align: center;
+	}
+	h2{
+		font-size: 1.875em;
+		text-align: center;
+		width: 95%;
+	}
+	.categories{
+		flex-wrap: wrap;
 		box-sizing: border-box;
-		padding: 0 9.3% 0 6%; 
-		margin-left: 0;
+		justify-content: center;
+		padding: 0 10px;
 	}
-	.main-content,
-	.main-content-wrap {
-		padding-left: 0;
-		padding-right: 0;
+	.categories-item{
+		height: 340px;
+		margin: 0 6px;
+		width: 340px;
+		justify-content: flex-start;
+		padding-top: 25px;
+		box-sizing: border-box;
 	}
-	.section-wrap{
+	.categories-item:hover{
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.categories-item.cat-a .img,
+	.categories-item.cat-b .img{
+		height: 50px;
+		width: 70px;
+	}
+	.categories-item.cat-a:hover .img,
+	.categories-item.cat-b:hover .img{
+		height: 50px;
+		width: 70px;
+	}
+	.categories-item span{
+		font-size: 1.6em;
+	}
+	.categories-item .head{
+		font-size: 2em;
+	}
+	.popular-questions-main{
+		box-sizing: border-box;
+		padding: 0 25px;
+	}
+	.popular-questions-accordion>span>div{
+		font-size: 1.5em;
+		font-weight: 400;
+	}
+	.popular-questions-accordion>span>div>span{
+		margin-left: 65px;
 		width: 100%;
 	}
-	.section{
-		padding: 0 3px;
-		overflow-x: scroll;
-		width: auto;
+	.accordion-button{
+		height: 50px;
+		width: 50px;
 	}
-	table{
-		font-size: 1.875em;
+	.accordion-content{
+		font-size: 1.6em;
 	}
-	tr{
-		height: 90px;
+}
+@media only screen and (max-width: 740px){
+	.categories-item{
+		margin: 10px 4px;
 	}
-	tr>td,
-	tr:not(:last-child)>td:first-child{
-		height: 90px;
-		width: 232px;
+}
+@media only screen and (max-width: 700px){
+	.our-info-item .text{
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 600px){
@@ -215,33 +258,65 @@
 		padding: 12px 5px;
 	}
 }
+@media only screen and (max-width: 580px){
+	.our-info-item{
+		height: 280px;
+		justify-content: flex-start;
+	}
+	.our-info-item .text{
+		width: 90%;
+	}
+	.our-info-item p.quant{
+		font-size: 3em;
+	}
+}
 @media only screen and (max-width: 540px){
 	body{
 		font-size: 14px;
 	}
-	.main-content{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
 }
 @media only screen and (max-width: 480px){
+	body{
+		font-size: 12px;
+	}
 	.head-baner .content span{
 		font-size: 1em;
 	}
 	.head-baner .content span.head{
 		font-size: 3em;
 	}
-	.main-content .aside .head{
-		font-size: 1.3em;
+	h1{
+		font-size: 2.5em;
 	}
-	.main-content .aside li{
-		font-size: 1.5em;
+	h2{
+		font-size: 2.2em;
 	}
-	
+	.popular-questions-accordion>span>div,
+	.accordion-content{
+		font-size: 1.4em;
+	}
+	.popular-questions-main{
+		padding: 0 5px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.our-info-item{
+		width: 100%;
+	}
+	.categories-item{
+		height: 300px;
+		width: 300px;
+	}
 }
 @media only screen and (max-width: 390px){
 	.header-adaptiv__main button{
 		margin-right: 0;
+	}
+	h1{
+		font-size: 2.2em;
+	}
+	h2{
+		font-size: 1.8em;
 	}
 	.we-invite-content span{
 		font-size: 2.4em;
@@ -254,8 +329,18 @@
 	}
 }
 @media only screen and (max-width: 360px){
-	
-	.main-content .aside li{
-		font-size: 1.2em;
+	h1{
+		font-size: 1.8em;
 	}
+	h2{
+		font-size: 1.4em;
+	}
+	.main-content .section>p{
+		font-size: 1.3em;
+	}
+	.categories-item{
+		height: 260px;
+		width: 260px;
+	}
+	
 }

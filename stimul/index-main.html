@@ -30,12 +30,40 @@
 			</form>
 		</div>
 	</div>
+	<div class="online-note-form flex-block">
+		<div class="pay-form">
+			<div class="head flex-block">
+				<span>записаться на урок</span>
+				<div id="online-note-close" class="close online-note-close"></div>
+			</div>
+			<form class="flex-block" action="">
+				<input placeholder="Имя" class="online-pay__name" type="text">
+				<input placeholder="E-mail" class="online-pay__email" type="text">
+				<input placeholder="Телефон" class="online-pay__phone" type="text">
+				<div class="flex-block">
+					<select class="form-time">
+						<option  hidden disabled selected>Время</option>
+					</select>
+					<input placeholder="Дата" type="" name="" id="form-note-date" class="form-date ">
+				</div>
+				<div class="flex-block">
+					<select class="form-course">
+						<option  hidden disabled selected>Курс</option>
+					</select>
+					<select class="form-category">
+						<option  hidden disabled selected>Катег.</option>
+					</select>
+				</div>
+				<button>отправить</button>
+			</form>
+		</div>
+	</div>
 	<header>
 		<div class="header-adaptiv">
 			<div class="header-adaptiv__main flex-block">
 				<div class="drop-menu">
 					<ul>
-						<li><a class="flex-block" href=""><span>цены</span> ></a></li>
+						<li><a class="flex-block" href="index-price.html"><span>цены</span> ></a></li>
 						<li><a class="flex-block" href="index-about-us.html"><span>о нас</span> ></a></li>
 						<li><a class="flex-block" href="index-adventages.html"><span>преимущества</span> ></a></li>
 						<li><a class="flex-block" href=""><span>расписание</span> ></a></li>
@@ -51,8 +79,10 @@
 					<button id="burger-adaptiv"><i class="fa fa-bars" aria-hidden="true"></i></button>
 					<button id="close-burger-adaptiv"><img src="img/close.png" alt=""></button>
 					<div class="logo flex-block">
-						<p>автошкола</p>
-						<p>стимул</p>
+						<a href="index-main.html">
+							<p>автошкола</p>
+							<p>стимул</p>
+						</a>
 					</div>
 				</div>
 				<button><a href="tel:+7 985 319 90 09"><i class="fa fa-phone" aria-hidden="true"></i></a></button>
@@ -86,11 +116,13 @@
 		<div class="line"></div>
 		<div class="menu flex-block">
 				<div class="logo flex-block">
-					<p>автошкола</p>
-					<p>стимул</p>
+					<a href="index-main.html">
+						<p>автошкола</p>
+						<p>стимул</p>
+					</a>
 				</div>
 				<ul class="navi flex-block">
-					<li><a href="">цены</a></li>
+					<li><a href="index-price.html">цены</a></li>
 					<li><a href="index-about-us.html">о нас</a></li>
 					<li><a href="index-adventages.html">преимущества</a></li>
 					<li><a href="">расписание</a></li>
@@ -112,7 +144,7 @@
 					<form class="get-course-form" action="">
 						<input class="form-name" type="text" placeholder="Имя">
 						<input class="form-email" type="text" placeholder="Е-mail">
-						<input class="form-phone" type="text" placeholder="Телфон">
+						<input class="form-phone" type="text" placeholder="Телефон">
 						<select class="form-time">
 							<option  hidden disabled selected>Время</option>
 						</select>
@@ -132,7 +164,7 @@
 					<p class="main">Лучшие цены на категории А и В! Обучаем грамотному и безопасному вождению.
 					</p>
 					<p class="main">Успейте записаться пока в наличие есть свободные места!</p>
-					<button>записаться</button>
+					<button class="online-note">записаться</button>
 					<button>подробнее</button>
 				</div>
 				<div class="button-block flex-block">
@@ -241,7 +273,7 @@
 		</div>
 	</div>
 	<div class="our-programs flex-block">
-		<h1 class="head">Реализуемые программы обучени</h1>
+		<h1 class="head">Реализуемые программы обучения</h1>
 		<h2 class="question">Мы проводим подготовку по следующим направлениям</h2>
 		<div class="posthead flex-block">
 			<div class="line"></div>
@@ -1051,7 +1083,7 @@
 	<div class="we-invite">
 		<div class="we-invite-content wrapper flex-block">
 			<span>приглашаем вас на бесплатный урок</span>
-			<button>записаться</button>
+			<button class="online-note">записаться</button>
 		</div>
 	</div>
 	<footer class="footer">

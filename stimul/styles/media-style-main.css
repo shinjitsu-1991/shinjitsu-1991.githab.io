@@ -18,6 +18,12 @@
 		margin:0 0 20px 0	;
 		background-repeat: no-repeat;
 	}
+	.programs-content-item img{
+		height: 50px;
+	}
+	.programs-content-item img.active-img{
+		height: 50px;
+	}
 	.prices-content-item{
 		width: 230px;
 	}
@@ -256,10 +262,6 @@
 		width: 340px;
 		justify-content: center;
 		margin: 10px auto;
-	}
-	.programs-content-item img,
-	.programs-content-item img.img-active{
-		height: 50px;
 	}
 	.programs-content-item .head{
 		font-size: 1.75em;

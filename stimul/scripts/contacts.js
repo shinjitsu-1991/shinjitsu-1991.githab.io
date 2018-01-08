@@ -25,3 +25,21 @@ $('#online-close').click(function(){
     $('.head-baner__main').css({'height':'auto'});
     $('.head-baner__main').css({'visibility':'visible'});
  });
+
+  //онлайн запись
+
+$('.online-note').click(function(){
+    $('.online-note-form').css({'display':'flex'});
+});
+
+$('.online-note-close').click(function(){
+    $('.online-note-form').css({'display':'none'});
+});
+
+
+ //datapicker ini
+
+ $( function() {
+    $( "#form-note-date" ).datepicker();
+    
+  } );

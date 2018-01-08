@@ -30,12 +30,40 @@
 			</form>
 		</div>
 	</div>
+	<div class="online-note-form flex-block">
+		<div class="pay-form">
+			<div class="head flex-block">
+				<span>записаться на урок</span>
+				<div id="online-note-close" class="close online-note-close"></div>
+			</div>
+			<form class="flex-block" action="">
+				<input placeholder="Имя" class="online-pay__name" type="text">
+				<input placeholder="E-mail" class="online-pay__email" type="text">
+				<input placeholder="Телефон" class="online-pay__phone" type="text">
+				<div class="flex-block">
+					<select class="form-time">
+						<option  hidden disabled selected>Время</option>
+					</select>
+					<input placeholder="Дата" type="" name="" id="form-note-date" class="form-date ">
+				</div>
+				<div class="flex-block">
+					<select class="form-course">
+						<option  hidden disabled selected>Курс</option>
+					</select>
+					<select class="form-category">
+						<option  hidden disabled selected>Катег.</option>
+					</select>
+				</div>
+				<button>отправить</button>
+			</form>
+		</div>
+	</div>
 	<header>
 		<div class="header-adaptiv">
 			<div class="header-adaptiv__main flex-block">
 				<div class="drop-menu">
 					<ul>
-						<li><a class="flex-block" href=""><span>цены</span> ></a></li>
+						<li><a class="flex-block" href="index-price.html"><span>цены</span> ></a></li>
 						<li><a class="flex-block" href="index-about-us.html"><span>о нас</span> ></a></li>
 						<li><a class="flex-block" href="index-adventages.html"><span>преимущества</span> ></a></li>
 						<li><a class="flex-block" href=""><span>расписание</span> ></a></li>
@@ -51,8 +79,10 @@
 					<button id="burger-adaptiv"><i class="fa fa-bars" aria-hidden="true"></i></button>
 					<button id="close-burger-adaptiv"><img src="img/close.png" alt=""></button>
 					<div class="logo flex-block">
-						<p>автошкола</p>
-						<p>стимул</p>
+						<a href="index-adventages.html">
+							<p>автошкола</p>
+							<p>стимул</p>
+						</a>
 					</div>
 				</div>
 				<button><a href="tel:+7 985 319 90 09"><i class="fa fa-phone" aria-hidden="true"></i></a></button>
@@ -73,7 +103,7 @@
 						</div>
 					</div>
 			<div class="info flex-block">
-					<div class="payment">
+					<div id="payment" class="payment">
 						<img src="img/card.svg" alt="">
 						<span>Оплата онлайн</span>
 					</div>
@@ -86,11 +116,13 @@
 		<div class="line"></div>
 		<div class="menu flex-block">
 				<div class="logo flex-block">
-					<p>автошкола</p>
-					<p>стимул</p>
-				</div>
+						<a href="index-adventages.html">
+							<p>автошкола</p>
+							<p>стимул</p>
+						</a>
+					</div>
 				<ul class="navi flex-block">
-					<li><a href="">цены</a></li>
+					<li><a href="index-price.html">цены</a></li>
 					<li><a href="index-about-us.html">о нас</a></li>
 					<li><a href="index-adventages.html">преимущества</a></li>
 					<li><a href="">расписание</a></li>
@@ -239,7 +271,7 @@
 	<div class="we-invite">
 		<div class="we-invite-content wrapper flex-block">
 			<span>приглашаем вас на бесплатный урок</span>
-			<button>записаться</button>
+			<button id="online-note">записаться</button>
 		</div>
 	</div>
 	<footer class="footer">
@@ -369,10 +401,10 @@
 	</footer>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
 	<script src="scripts/lightbox-plus-jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="scripts/jquery.magnific-popup.min.js"></script>
-	<script src="scripts/video.js"></script>
 	<script src="scripts/adventages-script.js"></script>
 </body>
 </html>
