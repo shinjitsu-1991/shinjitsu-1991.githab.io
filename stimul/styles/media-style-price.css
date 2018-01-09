@@ -38,6 +38,9 @@
 	}
 }
 @media only screen and (max-width: 860px){
+	.head-baner{
+		padding-top: 170px;
+	}
 	header .header{
 		display: none;
 	}
@@ -112,7 +115,7 @@
 		text-decoration: none;
 	}
 	.we-invite-content span{
-		font-size: 2.8em;
+		font-size: 2.4em;
 		margin-right: 0;
 	}
 	.we-invite-content{
@@ -319,7 +322,7 @@
 		font-size: 1.8em;
 	}
 	.we-invite-content span{
-		font-size: 2.4em;
+		font-size: 2em;
 	}
 	.footer-social-item .item-1,
 	.footer-social-item .item-2,
@@ -341,6 +344,19 @@
 	.categories-item{
 		height: 260px;
 		width: 260px;
+	}
+	.categories-item span{
+		font-size: 1.4em;
+	}
+	.categories-item .head{
+		font-size: 1.6em;
+	}
+	.categories-item.cat-a .img,
+	.categories-item.cat-b .img{
+		margin-bottom: 15px;
+	}
+	.we-invite-content span{
+		font-size: 2em;
 	}
 	
 }

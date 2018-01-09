@@ -188,7 +188,7 @@ header{
 .head-content{
 	background-image: url(../img/main-header-bg.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center 100%;
 	background-size: cover;
 	box-sizing: border-box;
 	padding-bottom: 225px;
@@ -454,11 +454,39 @@ header{
 	margin-top: 45px;
 	transition: .3s;
 	margin-left: 10px;
+	display: inline-block;
 }
-.head-content-main .content button:hover{
+.head-content-main .content div{
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+.head-content-main .content div>div{
+	background-color: #dec839;
+	color: #000;
+	text-transform: uppercase;
+	border:1px solid #dec839;
+	font-size: .93em;
+	font-family: myriad;
+	padding:10px 30px;
+	margin-top: 45px;
+	transition: .3s;
+	margin-left: 10px;
+	width: auto;
+	height: auto;
+}
+.head-content-main .content div a{
+	text-decoration: none;
+	color: #000;
+}
+.head-content-main .content button:hover,
+.head-content-main .content div:hover div{
 	background-color: rgba(0,0,0,0);
 	color: #f8f8f8;
 	border: 1px solid #f8f8f8;
+}
+.head-content-main .content div:hover a{
+	color: #f8f8f8;
 }
 /*HEADER end*/
 /*our-adventages start*/
@@ -730,6 +758,7 @@ h2{
 	height: 490px;
 	position: relative;
 	background-image: url(../img/video-bg.png);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 90px;

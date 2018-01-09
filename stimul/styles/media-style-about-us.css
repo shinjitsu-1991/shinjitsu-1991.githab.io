@@ -27,8 +27,14 @@
 	.row-item{
 		height: 180px;
 	}
+	.we-invite-content span{
+		font-size: 2.4em;
+	}
 }
 @media only screen and (max-width: 860px){
+	.head-baner{
+		padding-top: 170px;
+	}
 	header .header{
 		display: none;
 	}
@@ -103,8 +109,9 @@
 		text-decoration: none;
 	}
 	.we-invite-content span{
-		font-size: 2.8em;
+		font-size: 2.3em;
 		margin-right: 0;
+		width: 60%;
 	}
 	.we-invite-content{
 		flex-direction: column;
@@ -198,6 +205,11 @@
 		margin-bottom: 30px;
 	}
 }
+@media only screen and (max-width: 680px){
+	.we-invite-content span{
+		width: 90%;
+	}
+}
 @media only screen and (max-width: 600px){
 	body{
 		font-size: 15px;
@@ -222,6 +234,10 @@
 	}
 	.row-item:not(:last-child){
 		margin-bottom: 10px;
+	}
+	.we-invite-content button{
+		font-size: 1.6em;
+		padding: 15px 30px;
 	}
 }
 @media only screen and (max-width: 480px){
@@ -249,15 +265,17 @@
 		height: 180px;
 	}
 }
+@media only screen and (max-width: 430px){
+	.we-invite-content span{
+		font-size: 2.2em;
+	}
+}
 @media only screen and (max-width: 390px){
 	.header-adaptiv__main button{
 		margin-right: 0;
 	}
 	h3{
 		font-size: 2.2em;
-	}
-	.we-invite-content span{
-		font-size: 2.4em;
 	}
 	.footer-social-item .item-1,
 	.footer-social-item .item-2,
@@ -281,5 +299,8 @@
 	}
 	.main-content .aside li{
 		font-size: 1.2em;
+	}
+	.we-invite-content span{
+		font-size: 1.8em;
 	}
 }

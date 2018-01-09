@@ -15,7 +15,7 @@ $('#online-close').click(function(){
     $('#close-burger-adaptiv').show(100);
     $('.drop-menu').show(500);
     $('.head-baner>.content').css({'visibility':'hidden'});
-    $('.head-baner').css({'height':'500px'});
+    $('.head-baner').css({'height':'550px'});
  });
 
  $('#close-burger-adaptiv').click(function(){

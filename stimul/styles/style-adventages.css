@@ -333,6 +333,7 @@ header{
 	background-image: url(../img/head-baner-adventages-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	box-sizing: border-box;
 	padding:270px 0 145px 0;
 }
@@ -398,6 +399,10 @@ header{
 	line-height: 1.5em;
 	margin-bottom: 25px;
 	cursor: pointer;
+}
+.main-content .aside a{
+	color: #000;
+	text-decoration: none;
 }
 .main-content__section{
 	width: 65.7%;
@@ -510,7 +515,7 @@ header{
 .hide{
 	display: none;
 }
-.active-tab{
+li.tab.active-tab a{
 	color: #dec839;
 }
 /*main-content end*/

@@ -31,6 +31,9 @@
 	}
 }
 @media only screen and (max-width: 860px){
+	.head-baner{
+		padding-top: 170px;
+	}
 	header .header{
 		display: none;
 	}

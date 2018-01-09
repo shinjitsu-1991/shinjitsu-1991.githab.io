@@ -111,6 +111,7 @@ var swiperQuote = new Swiper('.quote-wrapper', {
     $('.drop-menu').show(500);
     $('.button-block').hide(100);
     $('.head-content-main>.content').css({'visibility':'hidden'});
+     $('.head-content-main').css({'height':'550px'});
  });
 
  $('#close-burger-adaptiv').click(function(){
@@ -119,6 +120,7 @@ var swiperQuote = new Swiper('.quote-wrapper', {
     $('.drop-menu').hide(300);
     $('.button-block').show(100);
     $('.head-content-main>.content').css({'visibility':'visible'});
+    $('.head-content-main').css({'height':'auto'});
  });
 
  //datapicker ini

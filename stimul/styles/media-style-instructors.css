@@ -101,6 +101,9 @@
 	}
 }
 @media only screen and (max-width: 860px){
+	.head-baner{
+		padding-top: 170px;
+	}
 	header .header{
 		display: none;
 	}
@@ -213,7 +216,7 @@
 	}
 	.we-invite-content span{
 		margin-right: 0;
-		font-size: 3em;
+		font-size: 2.4em;
 		width: 80%;
 		margin-bottom: 25px;
 	}
@@ -228,6 +231,11 @@
 		padding: 12px 5px;
 	}
 }
+@media only screen and (max-width: 450px){
+	.we-invite-content span{
+		font-size: 2.2em;
+	}
+}
 @media only screen and (max-width: 390px){
 	.header-adaptiv__main button{
 		margin-right: 0;
@@ -237,6 +245,9 @@
 	.footer-social-item .item-3{
 		height: 60px;
 		width: 60px;
+	}
+	.we-invite-content span{
+		font-size: 2em;
 	}
 }
 @media only screen and (max-width: 350px){

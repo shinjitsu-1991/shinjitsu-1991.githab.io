@@ -26,6 +26,9 @@
 	}
 }
 @media only screen and (max-width: 860px){
+	.head-baner{
+		padding-top: 170px;
+	}
 	header .header{
 		display: none;
 	}
@@ -107,7 +110,7 @@
 	}
 	.we-invite-content span{
 		margin-right: 0;
-		font-size: 3em;
+		font-size: 2.4em;
 		width: 80%;
 		margin-bottom: 25px;
 	}
@@ -220,7 +223,7 @@
 }
 @media only screen and (max-width: 580px){
 .we-invite-content span{
-		font-size: 2.5em;
+		font-size: 2.4em;
 	}
 }
 @media only screen and (max-width: 520px){
@@ -254,6 +257,15 @@
 	.main-content__form button{
 		font-size: 1.6em;
 	}
+	.we-invite-content span{
+		font-size: 2.2em;
+	}
+}
+@media only screen and (max-width: 480px){
+	.we-invite-content span{
+		font-size: 2em;
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 440px){
 	h1{
@@ -285,6 +297,9 @@
 	}
 	.main-content__form button{
 		font-size: 1.25em;
+	}
+	.we-invite-content span{
+		font-size: 1.9em;
 	}
 }
 @media only screen and (max-width: 414px){
@@ -332,6 +347,11 @@
 	}
 	.main-content__form button{
 		font-size: 1.1em;
+	}
+}
+@media only screen and (max-width: 350px){
+	.we-invite-content span{
+		font-size: 1.7em;
 	}
 }
 @media only screen and (max-width: 320px){

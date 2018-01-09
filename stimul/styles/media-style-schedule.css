@@ -34,6 +34,9 @@
 	}
 }
 @media only screen and (max-width: 860px){
+	.head-baner{
+		padding-top: 170px;
+	}
 	header .header{
 		display: none;
 	}
@@ -108,7 +111,7 @@
 		text-decoration: none;
 	}
 	.we-invite-content span{
-		font-size: 2.8em;
+		font-size: 2.4em;
 		margin-right: 0;
 	}
 	.we-invite-content{
@@ -245,8 +248,26 @@
 	.main-content .aside .head{
 		font-size: 1.3em;
 	}
+	h1{
+		font-size: 2.2em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
 	.main-content .aside li{
 		font-size: 1.5em;
+	}
+	table{
+		font-size: 1.4em;
+		width: 1260px;
+	}
+	tr{
+		height: 75px;
+	}
+	tr>td,
+	tr:not(:last-child)>td:first-child{
+		width: 180px;
+		height: 75px;
 	}
 	
 }
@@ -255,7 +276,7 @@
 		margin-right: 0;
 	}
 	.we-invite-content span{
-		font-size: 2.4em;
+		font-size: 2.2em;
 	}
 	.footer-social-item .item-1,
 	.footer-social-item .item-2,
@@ -271,5 +292,8 @@
 	
 	.main-content .aside li{
 		font-size: 1.2em;
+	}
+	.we-invite-content span{
+		font-size: 2em;
 	}
 }
