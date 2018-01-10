@@ -450,6 +450,7 @@ header{
 	text-align: center;
 	font-family: myriad;
 	font-size: 1.125em;
+	text-align: center;
 }
 .column-item:hover .column-item__content{
 	display: block;

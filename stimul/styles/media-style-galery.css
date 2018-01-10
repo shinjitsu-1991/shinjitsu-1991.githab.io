@@ -172,6 +172,12 @@
 	.row-3 .column:nth-child(3){
 		order:2 ;
 	}
+	.content-wrap span{
+		width: 90%;
+	}
+	.column-item__content{
+		padding: 5px 8px;
+	}
 }
 @media only screen and (max-width: 750px){
 	.column{
