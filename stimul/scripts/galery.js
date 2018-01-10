@@ -84,3 +84,9 @@ $('.online-note-close').click(function(){
     $( "#form-note-date" ).datepicker();
     
   } );
+
+
+ lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
