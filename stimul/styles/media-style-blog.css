@@ -28,6 +28,143 @@
 		font-size: 2.4em;
 	}
 }
+@media only screen and (max-width: 900px){
+	.main-content{
+		flex-direction: column;
+	}
+	.main-content .aside{
+		padding: 0 30px 0 50px;
+		width: 100%;
+		box-sizing: border-box;
+		margin-bottom: 155px;
+	}
+	h3{
+		font-size: 1.6em;
+	}
+	.aside__header span.main{
+		font-size: 1.875em;
+	}
+	.tab{
+		font-size: 1.875em;
+	}
+	.last-news .last-news__img{
+		width: 142px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 135px;
+	}
+	.last-news__item{
+		justify-content: flex-start;
+	}
+	.text__main{
+		font-size: 1.875em;
+		line-height: 1em;
+		margin-bottom: 20px;
+	}
+	.text__date{
+		font-size: 1.4em;
+		display: block;
+		margin-top: 20px;
+	}
+	.text__date:before{
+		height: 25px;
+		width: 25px;
+	}
+	.tags li{
+		font-size: 1.875em;
+	}
+	.main-content .section{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 30px 0 35px;
+	}
+	.section-item{
+		width: 100%;
+	}
+	h1{
+		font-size: 2.1em;
+		margin-bottom: 35px;
+	}
+	.posthead__date{
+		font-size: 1.2em;
+	}
+	.end-like, .end-coments{
+		font-size: 1.2em;
+		padding-left: 30px;
+	}
+	.section-item p{
+		font-size: 1.875em;
+	}
+	.coments-footer{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.coments-footer span{
+		font-size: 1.2em;
+	}
+	.coments-footer span.head{
+		font-size: 1.6em;
+	}
+	.vk, .facebook{
+		height: 34px;
+		font-size: 34px;
+	}
+	.coments-footer__start{
+		margin-bottom: 45px;
+	}
+	.coment-item__line{
+		margin-bottom: 130px;
+	}
+	h4{
+		font-size: 1.875em;
+	}
+	h4:after{
+		width: 120px;
+	}
+	.coment-item{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.coment-item__img{
+		height: 90px;
+		width: 90px;
+		position: relative;
+		top: 65px;
+	}
+	.coment-item__main .head{
+		margin-left: 100px;
+		font-size: 1.875em;
+	}
+	.coment-item__main .coment__date{
+		margin-left: 100px;
+		font-size: 1.7em;
+	}
+	.coment__body{
+		font-size: 1.875em;
+	}
+	.answer__img{
+		height: 20px;
+		width: 30px;
+	}
+	.answer span{
+		font-size: 1.875em;
+	}
+	.section-item__form input:first-child{
+		margin-right: 0;
+	}
+	.section-item__form input{
+		width: 100%;
+	}
+	.section-item__form input,
+	.section-item__form textarea{
+		font-size: 1.875em;
+	}
+	.section-item__form button{
+		font-size: 1.875em;
+		padding: 25px 45px;
+	}
+}
 @media only screen and (max-width: 860px){
 	.head-baner{
 		padding-top: 170px;
@@ -173,32 +310,68 @@
 	}
 }
 @media only screen and (max-width: 560px){
-	
-}
-@media only screen and (max-width: 540px){
 	body{
 		font-size: 14px;
 	}
+}
+@media only screen and (max-width: 540px){
 	.main-content{
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-.we-invite-content button{
+	.we-invite-content button{
 		font-size: 1.6em;
 		padding: 15px 30px;
 	}
+	.section-item__posthead{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.end-like, .end-coments{
+		margin-left: 0;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width: 480px){
+	body{
+		font-size: 13px;
+	}
 	.head-baner .content span{
 		font-size: 1em;
 	}
 	.head-baner .content span.head{
 		font-size: 3em;
 	}
+	.main-content .aside{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main-content .section{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 }
 @media only screen and (max-width: 430px){
 	.we-invite-content span{
 		font-size: 2.2em;
+	}
+}
+@media only screen and (max-width: 414px){
+	body{
+		font-size: 11px;
+	}
+	.section-item__img{
+		height: 250px;
+	}
+	.text__indent{
+		margin-left: 25px;
+	}
+	.reply{
+		margin-left: 40px;	
+	}
+	.coment-item__img{
+		top: 45px;
 	}
 }
 @media only screen and (max-width: 390px){
@@ -213,7 +386,30 @@
 	}
 }
 @media only screen and (max-width: 360px){
-.we-invite-content span{
+	body{
+		font-size: 10px;
+	}
+	.section-item p{
+		line-height: 1.2em;
+	}
+	.we-invite-content span{
 		font-size: 1.8em;
-	
+	}
+}
+@media only screen and (max-width: 320px){
+	.last-news .last-news__img{
+		height: 90px;
+		width: 90px;
+	}
+	.text__date{
+		margin-top: 10px;
+	}
+	.tags li{
+		width: 45%;
+		margin-bottom: 15px;
+	}
+	.reply{
+		margin-left: 15px;
+	}
+
 }
