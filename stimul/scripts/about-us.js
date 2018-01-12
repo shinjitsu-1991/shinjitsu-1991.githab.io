@@ -86,3 +86,12 @@ $('.online-note-close').click(function(){
   } );
 
 
+//калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});

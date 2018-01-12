@@ -8,6 +8,16 @@ $('.online-close').click(function(){
     $('.online-pay-form').css({'display':'none'});
 });
 
+ //калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});
+
 //выпадающее меню в адаптивной версии
 
  $('#burger-adaptiv').click(function(){
@@ -89,4 +99,6 @@ $('.online-note-close').click(function(){
  lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true
-    })
+    });
+
+

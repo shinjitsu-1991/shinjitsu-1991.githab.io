@@ -25,3 +25,13 @@ $('.online-close').click(function(){
     $('.head-baner>span').css({'visibility':'visible'});
     $('.head-baner').css({'height':'auto'});
  });
+
+ //калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});

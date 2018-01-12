@@ -158,3 +158,26 @@ $('.online-note-close').click(function(){
     $( "#form-note-date" ).datepicker();
     
   } );
+
+
+//rangeSlider
+
+$("#range").ionRangeSlider({
+    min: 0,
+    max: 60,
+    type: 'single',
+    grid: true,
+    force_edges: true,
+    grid_margin:true,
+    grid_num: 10
+});
+
+//калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});

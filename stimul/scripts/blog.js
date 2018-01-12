@@ -8,6 +8,15 @@ $('.online-close').click(function(){
     $('.online-pay-form').css({'display':'none'});
 });
 
+ //калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});
 //выпадающее меню в адаптивной версии
 
  $('#burger-adaptiv').click(function(){
@@ -67,6 +76,7 @@ function showContent(b){
     }
 }
 
+
  //онлайн запись
 
 $('.online-note').click(function(){
@@ -90,3 +100,4 @@ $('.online-note-close').click(function(){
       'resizeDuration': 200,
       'wrapAround': true
     })
+

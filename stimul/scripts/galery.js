@@ -90,3 +90,13 @@ $('.online-note-close').click(function(){
       'resizeDuration': 200,
       'wrapAround': true
     })
+
+ //калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});

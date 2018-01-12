@@ -45,3 +45,13 @@ $('.online-note-close').click(function(){
     $( "#form-note-date" ).datepicker();
     
   } );
+
+ //калькулятор
+
+$('.calc-start').click(function(){
+    $('.calculator-wrap').css({'display':'flex'});
+});
+
+$('#calc-close').click(function(){
+    $('.calculator-wrap').css({'display':'none'});
+});

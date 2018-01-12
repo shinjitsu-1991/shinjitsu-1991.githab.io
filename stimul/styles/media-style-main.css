@@ -124,6 +124,11 @@
 		padding-left: 15px;
 	}
 }
+@media only screen and (max-width: 960px){
+	.calculator__body{
+		flex-direction: column;
+	}
+}
 @media only screen and (max-width: 860px){
 	.our-adventages>.head,
 	.our-programs>.head,
