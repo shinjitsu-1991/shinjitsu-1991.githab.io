@@ -68,6 +68,9 @@
 	.answer span{
 		font-size: 1.875em;
 	}
+	.section-item__form{
+		width: 100%;
+	}
 	.section-item__form input:first-child{
 		margin-right: 0;
 	}
@@ -81,6 +84,11 @@
 	.section-item__form button{
 		font-size: 1.875em;
 		padding: 25px 45px;
+	}
+	.bx-pagination-conteiner li{
+		height: 50px;
+		width: 50px;
+		font-size: 1.5em;
 	}
 }
 @media only screen and (max-width: 860px){

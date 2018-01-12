@@ -478,6 +478,28 @@ h4:after{
 .section>.posthead{
 	margin-bottom: 50px;
 }
+.bx-pagination{
+	margin: 0 auto;
+	margin-top: 65px;
+}
+.bx-pagination-conteiner li{
+	height: 30px;
+	width: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #d7d7d7;
+	margin-right: 10px;
+	color: #6a6a6a;
+	font-size: .875em;
+	font-family: lato;
+}
+li.bx-pag-active{
+	border: none;
+	background-color: #dec839;
+	color: #fff;
+}
 /*main-content end*/
 
 /*we-invite start*/

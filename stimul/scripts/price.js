@@ -1,10 +1,10 @@
 //оплата онлайн форма
 
-$('#payment').click(function(){
+$('.payment').click(function(){
     $('.online-pay-form').css({'display':'flex'});
 });
 
-$('#online-close').click(function(){
+$('.online-close').click(function(){
     $('.online-pay-form').css({'display':'none'});
 });
 
@@ -15,7 +15,7 @@ $('#online-close').click(function(){
     $('#close-burger-adaptiv').show(100);
     $('.drop-menu').show(500);
     $('.head-baner>.content').css({'visibility':'hidden'});
-    $('.head-baner').css({'height':'500px'});
+    $('.head-baner').css({'height':'560px'});
  });
 
  $('#close-burger-adaptiv').click(function(){

@@ -133,11 +133,11 @@ var swiperQuote = new Swiper('.quote-wrapper', {
 
 //оплата онлайн форма
 
-$('#payment').click(function(){
+$('.payment').click(function(){
     $('.online-pay-form').css({'display':'flex'});
 });
 
-$('#online-close').click(function(){
+$('.online-close').click(function(){
     $('.online-pay-form').css({'display':'none'});
 });
 
