@@ -237,6 +237,9 @@
 		font-size: 1.6em;
 		margin: 0 28px;
 	}
+	.head-content{
+		padding-top: 200px;
+	}
 	.head-content-main .content button{
 		font-size: 1.6em;
 	}
@@ -656,7 +659,7 @@
 		font-size: 30px;
 	}
 	.conditions{
-		height: 500px;
+		height: 580px;
 	}
 	.we-invite-content button{
 		height: 60px;
@@ -783,6 +786,9 @@
 	.we-invite-content span{
 		font-size: 1.6em;
 	}
+	.conditions{
+		height: 500px;
+	}
 }
 @media only screen and (max-width: 390px){	
 	.button-block{
@@ -886,7 +892,7 @@
 		width: 250%;
 	}
 	.conditions{
-		height: 570px;
+		height: 540px;
 	}
 	.content-row .text p:last-child{
 		font-size: 1.1em;
