@@ -1198,7 +1198,7 @@ span.quote-text-main{
 span.quote-text-main::before{
 	content:"" ;
 	margin-right: 5px;
-	background-image: url(../img/quote-right.svg);
+	background-image: url(../img/quote-left.svg);
 	height: 20px;
 	width: 20px;
 	display: inline-block;
@@ -1206,7 +1206,7 @@ span.quote-text-main::before{
 }
 span.quote-text-main::after{
 	content: "";
-	background-image: url(../img/quote-left.svg);
+	background-image: url(../img/quote-right.svg);
 	background-repeat: repeat;
 	background-size: cover;
 	margin-left: 5px;
@@ -1246,8 +1246,8 @@ span.quote-text-main::after{
 }
 .instructors-buttons span{
 	position: absolute;
-	right: 35px;
-	bottom: 6px;
+	right: 33px;
+	bottom: 10px;
 }
 .instructors-buttons .swiper-button-prev{
 	background-image: url(../img/arrow-left.svg);
