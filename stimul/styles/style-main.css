@@ -478,21 +478,25 @@ header{
 	font-size: 36px;
 	top: 400px;
 }
+.button-block .slash{
+	position: relative;
+	right: 3px;
+}
 .button-block .next,
 .button-block .prev{
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 13px;
+	height: 20px;
 	width: 26px;
 	top: 10px;
 }
 .button-block .next{
 	right: 25px;
-	background-image: url(../img/head-but-next.png);
+	background-image: url(../img/header-arrow-right.svg);
 }
 .button-block .prev{
 	left: 25px;
-	background-image: url(../img/head-but-prev.png);
+	background-image: url(../img/header-arrow-left.svg);
 }
 .head-content-main{
 	justify-content: space-between;
@@ -1135,14 +1139,14 @@ h2{
 	height: 125px;
 }
 .quote .prev{
-	background-image: url(../img/arrow-prev.png);
+	background-image: url(../img/quote-arrow-left.svg);
 	transition: .1s;
 	background-size: cover;
 	height: 30px;
 	width: 16px;
 }
 .quote .next{
-	background-image: url(../img/arrow-next.png);
+	background-image: url(../img/quote-arrow-right.svg);
 	transition: .1s;
 	background-size: cover;
 	height: 30px;
@@ -1150,10 +1154,10 @@ h2{
 	bottom: 20px;
 }
 .quote .prev:hover{
-	background-image: url(../img/arrow-prev-active.png);
+	background-image: url(../img/quote-arrow-left-active.svg);
 }
 .quote .next:hover{
-	background-image: url(../img/arrow-next-active.png);
+	background-image: url(../img/quote-arrow-right-active.svg);
 }
 .quote-line{
 	width: 400px;
