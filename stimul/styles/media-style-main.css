@@ -646,6 +646,23 @@
 	.we-invite-content span{
 		font-size: 2.5em;
 	}
+	.networks-adaptiv div{
+		height: 50px;
+		width: 50px;
+	}
+	.value-octagon{
+		height: 120px;
+		width: 120px;
+		font-size: 30px;
+	}
+	.conditions{
+		height: 500px;
+	}
+	.we-invite-content button{
+		height: 60px;
+		width: 200px;
+		font-size: 1.4em;
+	}
 }
 @media only screen and (max-width: 540px){
 	.popular-questions-content span span{
@@ -736,9 +753,6 @@
 	.main-text-adaptiv .main{
 		font-size: 1.2em;
 	}
-	.conditions{
-		height: 540px;
-	}
 	.conditions span{
 		font-size: 1.4em;
 	}
@@ -763,11 +777,11 @@
 		display: none;
 	}
 	.quote-text span{
-		width: 200%;
+		width: 240%;
 		text-align: center;
 	}
 	.we-invite-content span{
-		font-size: 2em;
+		font-size: 1.6em;
 	}
 }
 @media only screen and (max-width: 390px){	
@@ -831,7 +845,7 @@
 		margin-top: 200px;
 	}
 	.we-invite-content span{
-		font-size: 1.8em;
+		font-size: 1.5em;
 		width: 100%;
 	}
 }
@@ -856,7 +870,7 @@
 		margin: 0 auto;
 	}
 	.we-invite-content span{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 }
 @media only screen and (max-width: 320px){
