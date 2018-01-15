@@ -240,6 +240,9 @@
 	.header-adaptiv__main{
 		padding: 12px 5px;
 	}
+	h4{
+		font-size: 1.6em;
+	}
 }
 @media only screen and (max-width: 560px){
 	body{
@@ -296,6 +299,10 @@
 	.footer-social-item .item-3{
 		height: 60px;
 		width: 60px;
+	}
+	.bx-pagination-conteiner li{
+		height: 35px;
+		width: 35px;
 	}
 }
 @media only screen and (max-width: 360px){

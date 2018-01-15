@@ -308,11 +308,45 @@
 	.header-adaptiv__main{
 		padding: 12px 5px;
 	}
+	.aside__header span.main{
+		font-size: 1.2em;
+	}
+	.tab{
+		font-size: 1.2em;
+	}
+	.text__main{
+		font-size: 1.4em;
+	}
+	.text__date{
+		font-size: 1.2em;
+	}
+	.tags li{
+		font-size: 1.2em;
+	}
+	.section-item p{
+		font-size: 1.2em;
+	}
+	.coment__body{
+		font-size: 1.2em;
+	}
+	.section-item__form input,
+	.section-item__form textarea{
+		font-size: 1.2em;
+	}
+	.section-item__form button{
+		font-size: 1.4em;
+	}
+	.we-invite-content span{
+		font-size: 1.5em;
+	}
+	.we-invite-content button{
+		width: 200px;
+		height: 60px;
+		font-size: 1.3em;
+	}
 }
 @media only screen and (max-width: 560px){
-	body{
-		font-size: 14px;
-	}
+	
 }
 @media only screen and (max-width: 540px){
 	.main-content{
@@ -334,9 +368,6 @@
 	}
 }
 @media only screen and (max-width: 480px){
-	body{
-		font-size: 13px;
-	}
 	.head-baner .content span{
 		font-size: 1em;
 	}
@@ -353,14 +384,8 @@
 	}
 }
 @media only screen and (max-width: 430px){
-	.we-invite-content span{
-		font-size: 2.2em;
-	}
 }
 @media only screen and (max-width: 414px){
-	body{
-		font-size: 11px;
-	}
 	.section-item__img{
 		height: 250px;
 	}
@@ -371,7 +396,7 @@
 		margin-left: 40px;	
 	}
 	.coment-item__img{
-		top: 45px;
+		top: 60px;
 	}
 }
 @media only screen and (max-width: 390px){
@@ -384,23 +409,37 @@
 		height: 60px;
 		width: 60px;
 	}
+	.text__main{
+		font-size: 1.2em;
+	}
+	.last-news .last-news__img{
+		margin-right: 10px;
+		height: 100px;
+		width: 100px;
+
+	}
+}
+@media only screen and (max-width: 375px){
+	.coment-item__main .coment__date{
+		font-size: 1.2em;
+	}
 }
 @media only screen and (max-width: 360px){
-	body{
-		font-size: 10px;
+	.posthead__end{
+		flex-direction: column;
 	}
-	.section-item p{
-		line-height: 1.2em;
+	.coments-footer span.head{
+		margin-right: 5px;
+		justify-content: flex-start;
 	}
-	.we-invite-content span{
-		font-size: 1.8em;
+	.coments-footer .vk,
+	.coments-footer .facebook{
+		margin-left: 8px;
 	}
 }
 @media only screen and (max-width: 320px){
 	.last-news .last-news__img{
-		height: 90px;
-		width: 90px;
-	}
+			}
 	.text__date{
 		margin-top: 10px;
 	}

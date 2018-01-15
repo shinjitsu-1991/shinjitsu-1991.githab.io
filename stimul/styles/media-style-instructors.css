@@ -230,11 +230,33 @@
 	.header-adaptiv__main{
 		padding: 12px 5px;
 	}
+	.instructors-adaptive-content{
+		margin-top: 25px;
+	}
+	.main-text-adaptiv span.head{
+		font-size: 1.6em;
+	}
+	.main-text-adaptiv span.age{
+		font-size: 1.4em;	
+	}
+	.main-text-adaptiv .main{
+		font-size: 1.2em;
+	}
+	.networks-adaptiv div{
+		height: 50px;
+		width: 50px;
+	}
+	.we-invite-content span{
+		font-size: 1.6em;
+	}
+	.we-invite-content button{
+		width: 200px;
+		height: 60px;
+		font-size: 1.4em;
+	}
 }
 @media only screen and (max-width: 450px){
-	.we-invite-content span{
-		font-size: 2.2em;
-	}
+	
 }
 @media only screen and (max-width: 390px){
 	.header-adaptiv__main button{
@@ -246,16 +268,10 @@
 		height: 60px;
 		width: 60px;
 	}
-	.we-invite-content span{
-		font-size: 2em;
-	}
 }
 @media only screen and (max-width: 350px){
 	.galery__item{
 		height: 70px;
 		width: 70px;
-	}
-	.we-invite-content span{
-		font-size: 2.5em;
 	}
 }

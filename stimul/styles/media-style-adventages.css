@@ -206,54 +206,40 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-}
-@media only screen and (max-width: 460px){
-	.main-content .aside>.head,
-	.main-content .aside>.tabs-head{
-		font-size: 1.5em;
-	}
 	.main-content .aside>.main,
 	.main-content .aside .tab{
-		font-size: 1.7em;
+		font-size: 1.2em;
 	}
 	.main-content__section h2{
-		font-size: 1.9em;
+		font-size: 1.6em;
 	}
 	.main-content__section h3{
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+	.section__img{
+		background-position: right;
 	}
 	.section__item p,
 	.section__item li{
-		font-size: 1.6em;
-		line-height: 1.3em;
+		font-size: 1.2em;
+		line-height: 1.2em;
 	}
+	.we-invite-content span{
+		font-size: 1.8em;
+	}
+	.we-invite-content button{
+		width: 200px;
+		height: 60px;
+		font-size: 1.3em;
+	}
+}
+@media only screen and (max-width: 460px){
+	
 }
 @media only screen and (max-width: 360px){
 	.section__img{
 		height: 300px;
-		background-position: center;
-	}
-	.main-content .aside>.head,
-	.main-content .aside>.tabs-head{
-		font-size: 1.4em;
-	}
-	.main-content .aside>.main,
-	.main-content .aside .tab{
-		font-size: 1.6em;
-	}
-	.main-content__section h2{
-		font-size: 1.75em;
-	}
-	.main-content__section h3{
-		font-size: .93em;
-	}
-	.section__item p,
-	.section__item li{
-		font-size: 1.5em;
-		line-height: 1.2em;
-	}
-	.we-invite-content span{
-		font-size: 2.5em;
+		background-position: right;
 	}
 	.whith-indent{
 		margin-left: 10px;

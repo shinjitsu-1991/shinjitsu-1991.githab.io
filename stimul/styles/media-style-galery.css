@@ -296,6 +296,10 @@
 	.column__part .column-item{
 		height: 115px;
 	}
+	.bx-pagination-conteiner li{
+		height: 35px;
+		width: 35px;
+	}
 }
 @media only screen and (max-width: 360px){
 .we-invite-content span{
