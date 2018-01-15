@@ -687,6 +687,7 @@
 	}
 	.programs-content-item .text{
 		font-size: 1.2em;
+		width: 70%;
 	}
 	.content-row{
 		flex-wrap: wrap;
