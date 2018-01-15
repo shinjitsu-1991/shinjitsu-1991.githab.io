@@ -122,6 +122,13 @@ a{
 .form-time{
 	background: url(../img/form-time-img.png) no-repeat 7% 50%;
 }
+.form-time option,
+.form-course option,
+.form-category option{
+	background: rgba(0,0,0,.6);
+	outline: none;
+	border: none;
+}
 .form-date{
 	background: url(../img/form-date-img.png) no-repeat 7% 50%;
 }
