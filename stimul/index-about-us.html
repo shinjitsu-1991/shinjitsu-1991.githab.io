@@ -16,61 +16,58 @@
 	<title>Автошкола СТИМУЛ / О нас</title>
 </head>
 <body>
-	<div class="calculator-wrap flex-block">
-		<div class="calculator">
-			<div id="calc-close"></div>
-			<span class="calculator__head">Калькулятор</span>
-			<div class="calculator__body flex-block">
-				<div class="calc-section">
-					<span class="calc-section__head">
+	<div id="calc" class="calculator white-popup-block mfp-hide">
+		<span class="calculator__head">Калькулятор</span>
+		<div class="calculator__body flex-block">
+			<div class="calc-section">
+				<span class="calc-section__head">
 						Выберите категорию:
-					</span>
-					<input name="category" class="calc-category" type="radio" id="choose-1">
-					<label class="calc-category__label calc-choose" for="choose-1">A</label>
-					<input name="category" class="calc-category" type="radio" id="choose-2">
-					<label class="calc-category__label calc-choose" for="choose-2">B</label>
-					<input name="category" class="calc-category" type="radio" id="choose-3">
-					<label class="calc-category__label calc-choose" for="choose-3">C</label>
-					<span  class="calc-section__head">Выберите формат обучения:</span>
-					<input name="format" type="radio" id="choose-2-1" class="calc-format">
-					<label class="calc-format__label calc-choose fix" for="choose-2-1">онлайн</label>
-					<input name="format" type="radio" id="choose-2-2" class="calc-format">
-					<label class="calc-format__label calc-choose fix" for="choose-2-2">в классе</label>
-					<input name="format" type="radio" id="choose-2-3" class="calc-format">
-					<label class="calc-format__label calc-choose fix" for="choose-2-3">без теории</label>
-					<span class="calc-section__head">
-						Выберите коробку передач для практического курса:
-					</span>
-					<input name="box" type="radio" class="calc-box" id="choose-3-1">
-					<label class="calc-box__label calc-choose fix" for="choose-3-1">механика</label>
-					<input name="box" type="radio" class="calc-box" id="choose-3-2">
-					<label class="calc-box__label calc-choose fix" for="choose-3-2">автомат</label>
-					<span class="calc-section__head">Медкомиссия:</span>
-					<span class="med">Вы можете пройти медкомиссию в нашей автошколе или самостоятельно</span>
-				</div>
-				<div class="totals">
-					<span class="head">итог</span>
-					<span class="totals-price"><span>0</span>&#160;<i class="fa fa-rub" aria-hidden="true"></i></span>
-					<ul class="circs">
-						<li>Теоретический курс</li>
-						<li>Сдача внутреннего экзамена бесплатно</li>
-						<li>Проведение внутренних экзаменов</li>
-						<li>Свидетельство об окончании автошколы</li>
-						<li>Подача машины на экзамены в ГИБДД</li>
-						<li>Пакет документов для сдачи в ГИБДД</li>
-						<li>Сопровождение до получения прав</li>
-						<li>Персональный менеджер</li>
-						<li>ГСМ (бензин) бесплатно</li>
-					</ul>
-				</div>
+				</span>
+				<input name="category" class="calc-category" type="radio" id="choose-1">
+				<label class="calc-category__label calc-choose" for="choose-1">A</label>
+				<input name="category" class="calc-category" type="radio" id="choose-2">
+				<label class="calc-category__label calc-choose" for="choose-2">B</label>
+				<input name="category" class="calc-category" type="radio" id="choose-3">
+				<label class="calc-category__label calc-choose" for="choose-3">C</label>
+				<span  class="calc-section__head">Выберите формат обучения:</span>
+				<input name="format" type="radio" id="choose-2-1" class="calc-format">
+				<label class="calc-format__label calc-choose fix" for="choose-2-1">онлайн</label>
+				<input name="format" type="radio" id="choose-2-2" class="calc-format">
+				<label class="calc-format__label calc-choose fix" for="choose-2-2">в классе</label>
+				<input name="format" type="radio" id="choose-2-3" class="calc-format">
+				<label class="calc-format__label calc-choose fix" for="choose-2-3">без теории</label>
+				<span class="calc-section__head">
+					Выберите коробку передач для практического курса:
+				</span>
+				<input name="box" type="radio" class="calc-box" id="choose-3-1">
+				<label class="calc-box__label calc-choose fix" for="choose-3-1">механика</label>
+				<input name="box" type="radio" class="calc-box" id="choose-3-2">
+				<label class="calc-box__label calc-choose fix" for="choose-3-2">автомат</label>
+				<span class="calc-section__head">Медкомиссия:</span>
+				<span class="med">Вы можете пройти медкомиссию в нашей автошколе или самостоятельно</span>
 			</div>
-			<span class="calc-section__head">Количество практических часов:</span>
-			<div class="range-wrap">
-				<input type="text" id="range">
+			<div class="totals">
+				<span class="head">итог</span>
+				<span class="totals-price"><span>0</span>&#160;<i class="fa fa-rub" aria-hidden="true"></i></span>
+				<ul class="circs">
+					<li>Теоретический курс</li>
+					<li>Сдача внутреннего экзамена бесплатно</li>
+					<li>Проведение внутренних экзаменов</li>
+					<li>Свидетельство об окончании автошколы</li>
+					<li>Подача машины на экзамены в ГИБДД</li>
+					<li>Пакет документов для сдачи в ГИБДД</li>
+					<li>Сопровождение до получения прав</li>
+					<li>Персональный менеджер</li>
+					<li>ГСМ (бензин) бесплатно</li>
+				</ul>
 			</div>
-			<button class="calc-but">оформить</button>
-			<span class="calculator__footer">Возможна рассрочка. Первый платеж - 4000 руб.</span>
 		</div>
+		<span class="calc-section__head">Количество практических часов:</span>
+		<div class="range-wrap">
+			<input type="text" id="range">
+		</div>
+		<button class="calc-but">оформить</button>
+		<span class="calculator__footer">Возможна рассрочка. Первый платеж - 4000 руб.</span>
 	</div>
 	<div class="online-pay-form flex-block">
 		<div class="pay-form">
@@ -125,7 +122,7 @@
 						<li><a class="flex-block" href="index-about-us.html"><span>о нас</span> ></a></li>
 						<li><a class="flex-block" href="index-adventages.html"><span>преимущества</span> ></a></li>
 						<li><a class="flex-block" href="index-schedule.html"><span>расписание</span> ></a></li>
-						<li><a class="calc-start flex-block" ><span>калькулятор</span> ></a></li>
+						<li><a href="#calc" class="calc-start flex-block" ><span>калькулятор</span> ></a></li>
 						<li><a class="flex-block" href="index-review.html"><span>отзывы</span> ></a></li>
 						<li><a class="flex-block" href="index-instructors.html"><span>инструкторы</span> ></a></li>
 						<li><a class="flex-block" href="index-contacts.html"><span>контакты</span> ></a></li>
@@ -137,7 +134,7 @@
 					<button id="burger-adaptiv"><i class="fa fa-bars" aria-hidden="true"></i></button>
 					<button id="close-burger-adaptiv"><img src="img/close.png" alt=""></button>
 					<div class="logo flex-block">
-						<a href="index-about-us.html">
+						<a href="index-main.html">
 							<p>автошкола</p>
 							<p>стимул</p>
 						</a>
@@ -174,7 +171,7 @@
 		<div class="line"></div>
 		<div class="menu flex-block">
 				<div class="logo flex-block">
-					<a href="index-about-us.html">
+					<a href="index-main.html">
 						<p>автошкола</p>
 						<p>стимул</p>
 					</a>
@@ -184,7 +181,7 @@
 					<li><a href="index-about-us.html">о нас</a></li>
 					<li><a href="index-adventages.html">преимущества</a></li>
 					<li><a href="index-schedule.html">расписание</a></li>
-					<li><a class="calc-start">калькулятор</a></li>
+					<li><a href="#calc" class="calc-start">калькулятор</a></li>
 					<li><a href="index-review.html">отзывы</a></li>
 					<li><a href="index-instructors.html">инструкторы</a></li>
 					<li><a href="index-contacts.html">контакты</a></li>
@@ -489,6 +486,7 @@
 	<script src="scripts/ion.rangeSlider.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="scripts/jquery.magnific-popup.min.js"></script>
+	<script src="scripts/ion.rangeSlider.min.js"></script>
 	<script src="scripts/about-us.js"></script>
 </body>
 </html>

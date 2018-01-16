@@ -167,16 +167,11 @@ background-position: 7% 50%;
 	color: #fff;
 }
 /*calculator start*/
-.calculator-wrap{
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(5,5,5,.5);
-	z-index: 10000;
-	display: none;
+.drop-menu{
+	z-index: 100;
 }
 .calculator{
-	z-index: 10001;
+	z-index: 30000;
 	background-color: #fff;
 	max-width: 960px;
 	width: 100%;
@@ -184,6 +179,7 @@ background-position: 7% 50%;
 	box-sizing: border-box;
 	padding: 32px 65px 37px 30px;
 	position: relative;
+	margin: 0 auto;
 }
 .calculator__head{
 	text-transform: uppercase;

@@ -66,13 +66,33 @@ $('.online-note-close').click(function(){
     });
   });
 
+  //rangeSlider
+
+$("#range").ionRangeSlider({
+    min: 0,
+    max: 60,
+    type: 'single',
+    grid: true,
+    force_edges: true,
+    grid_margin:true,
+    grid_num: 10
+});
+
 
 //калькулятор
 
-$('.calc-start').click(function(){
-    $('.calculator-wrap').css({'display':'flex'});
-});
+$('.calc-start').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#calc',
 
-$('#calc-close').click(function(){
-    $('.calculator-wrap').css({'display':'none'});
-});s
+    callbacks: {
+      beforeOpen: function() {
+        if($(window).width() < 320) {
+          this.st.focus = false;
+        } else {
+          this.st.focus = '#calc';
+        }
+      }
+    }
+  });
