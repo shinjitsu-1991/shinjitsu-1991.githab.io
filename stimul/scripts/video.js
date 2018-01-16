@@ -174,10 +174,18 @@ $("#range").ionRangeSlider({
 
 //калькулятор
 
-$('.calc-start').click(function(){
-    $('.calculator-wrap').css({'display':'flex'});
-});
+$('.calc-start').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#calc',
 
-$('#calc-close').click(function(){
-    $('.calculator-wrap').css({'display':'none'});
-});
+    callbacks: {
+      beforeOpen: function() {
+        if($(window).width() < 320) {
+          this.st.focus = false;
+        } else {
+          this.st.focus = '#calc';
+        }
+      }
+    }
+  });

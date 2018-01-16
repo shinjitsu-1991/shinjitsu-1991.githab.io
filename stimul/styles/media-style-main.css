@@ -127,6 +127,29 @@
 @media only screen and (max-width: 960px){
 	.calculator__body{
 		flex-direction: column;
+		padding-left: 15%;
+	}
+	.calculator__head{
+		text-align: center;
+	}
+	.calc-section,
+	.totals{
+		width: auto;
+	}
+	.totals{
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	.totals .head{
+		order: 1;
+		margin-bottom: 5px;
+		margin-top: 20px;
+	}
+	.totals .circs{
+		order: 3;
 	}
 }
 @media only screen and (max-width: 860px){
@@ -532,6 +555,12 @@
 
 }
 @media only screen and (max-width: 750px){
+	.calculator__body{
+		padding-left: 5px;
+	}
+	.calc-section{
+		margin-right: 0;
+	}
 	.our-adventages__content{
 		height: auto;
 		padding-left: 25px;
@@ -607,6 +636,15 @@
 	}
 }
 @media only screen and (max-width: 600px){
+	.calc-format__label{
+		display: block;
+		width: 160px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+	}
+	.calculator{
+		padding: 10px 5px;
+	}
 	.galery__item-1,
 	.galery__item-2,
 	.galery__item-4,
@@ -859,6 +897,16 @@
 	}
 }
 @media only screen and (max-width: 360px){
+	.calc-box__label{
+		display: block;
+		width: 140px;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+	}
+	.med{
+		margin-right: 0;
+		width: 100%;
+	}
 	.head-content-main .content .head{
 		font-size: 1.8em;
 	}
