@@ -346,6 +346,58 @@ background-position: 7% 50%;
 	background: #aaa;
 }
 /*бегунок*/
+/*форма калькулятора*/
+.calc-form{
+	width: 100%;
+	padding-top: 25px;
+	box-sizing: border-box;
+	background-color: #fff;
+	display: none;
+}
+.calc-form form{
+	width: 320px;
+}
+.calc-form form>span{
+	display: block;
+	font-size: 1em;
+	font-family: myriad;
+	margin-bottom: 5px;
+}
+.calc-form form>input,
+.calc-form form>textarea{
+	padding: 4px;
+	width: 90%;
+	border:1px solid #000;
+	border-radius: 3px;
+	color: #000;
+	font-size: 1em;
+	font-family: myriad;
+	margin-bottom: 8px;
+}
+.calc-form form>textarea{
+	resize: none;
+}
+.calc-form form>div{
+	padding: 12px 20px;
+	width: auto;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-family: myriad;
+	border-radius: 4px;
+	transition: .3s;
+	margin-right: 6px;
+	background-color: #dec839;
+	color: #fff;
+	border:1px solid #dec839;
+}
+.calc-form form>div:hover{
+	color: #000;
+	border:1px solid #000;
+	background-color: #fff;
+}
+/*форма калькулятора end*/
 /*calculator end*/
 /*HEADER start*/
 header{

@@ -16,6 +16,18 @@ $('.calc-start').magnificPopup({
     }
   });
 
+//форма калькулятора
+
+$('.calc-but').click(function(){
+  $('.calc-but').hide();
+  $('.calc-form').show();
+});
+
+$('.calc-form-cansel').click(function(){
+  $('.calc-but').show();
+  $('.calc-form').hide();
+});
+
 //rangeSlider
 
 $("#range").ionRangeSlider({

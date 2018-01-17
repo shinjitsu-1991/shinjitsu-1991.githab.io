@@ -1,3 +1,34 @@
+
+//калькулятор
+
+$('.calc-start').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#calc',
+
+    callbacks: {
+      beforeOpen: function() {
+        if($(window).width() < 320) {
+          this.st.focus = false;
+        } else {
+          this.st.focus = '#calc';
+        }
+      }
+    }
+  });
+
+
+//форма калькулятора
+
+$('.calc-but').click(function(){
+  $('.calc-but').hide();
+  $('.calc-form').show();
+});
+
+$('.calc-form-cansel').click(function(){
+  $('.calc-but').show();
+  $('.calc-form').hide();
+});
 //оплата онлайн форма
 
 $('.payment').click(function(){
@@ -77,6 +108,26 @@ $('.online-note-close').click(function(){
     $('.online-note-form').css({'display':'none'});
 });
 
+ //rangeSlider
+
+$("#range").ionRangeSlider({
+    min: 0,
+    max: 60,
+    type: 'single',
+    grid: true,
+    force_edges: true,
+    grid_margin:true,
+    grid_num: 10
+});
+
+ 
+
+
+ lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+
 
  //datapicker ini
 
@@ -125,39 +176,6 @@ return datepicker.regional.ru;
 $( "#datepicker" ).datepicker( $.datepicker.regional[ "ru" ] );
 
 
- lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true
-    })
 
 
 
-//калькулятор
-
-$('.calc-start').magnificPopup({
-    type: 'inline',
-    preloader: false,
-    focus: '#calc',
-
-    callbacks: {
-      beforeOpen: function() {
-        if($(window).width() < 320) {
-          this.st.focus = false;
-        } else {
-          this.st.focus = '#calc';
-        }
-      }
-    }
-  });
-
- //rangeSlider
-
-$("#range").ionRangeSlider({
-    min: 0,
-    max: 60,
-    type: 'single',
-    grid: true,
-    force_edges: true,
-    grid_margin:true,
-    grid_num: 10
-});
