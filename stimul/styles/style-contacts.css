@@ -30,6 +30,11 @@ a{
 	text-decoration: none;
 	outline: none;
 }
+select,
+input,
+textarea{
+	outline: none;
+}
 .flex-block{
 	display: flex;
 	flex-direction: row;
@@ -165,6 +170,24 @@ background-position: 7% 50%;
 .ui-datepicker table,
 .ui-datepicker table a{
 	color: #fff;
+}
+.ui-icon.ui-icon-circle-triangle-w{
+	background-image: url(../img/quote-arrow-left-active.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 11px;
+	width: 8px;
+}
+.ui-icon.ui-icon-circle-triangle-e{
+	background-image: url(../img/quote-arrow-right-active.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 11px;
+	width: 8px;
+}
+.online-note-form select>option{
+	background-color: #fff;
+	color: #aaa;
 }
 /*calculator start*/
 .drop-menu{
@@ -551,6 +574,10 @@ h2{
 	font-size: .93em;
 	margin-bottom: 10px;
 	font-weight: bold;
+}
+.set-branch{
+	width: 100%;
+	border:none;
 }
 .main-content__form{
 	width: 65.25%;

@@ -63,6 +63,7 @@
 	.conteiner-adaptive__item .galery{
 		justify-content: space-between;
 		flex-direction: row;
+		margin-bottom: 15px;
 	}
 	.galery__item{
 		background-size: cover;
@@ -170,9 +171,9 @@
 		text-transform: uppercase;
 		color: #fff;
 		border-bottom: 1px solid rgba(255,255,255,.2);
-		font-size: 1.6em;
+		font-size: 24px;
 		box-sizing: border-box;
-		padding:25px 0;
+		padding:22px 0;
 	}
 	.header-adaptiv__main__start{
 		justify-content: flex-start;
@@ -252,14 +253,14 @@
 	}
 	.we-invite-content span{
 		margin-right: 0;
-		font-size: 2.4em;
+		font-size: 24px;
 		width: 80%;
-		margin-bottom: 25px;
 	}
-	.we-invite-content button{
-		width: 250px;
-		height: 70px;
-		font-size: 1.6em;
+	.we-invite-content button {
+    font-size: 22px;
+    width: 220px;
+    height: 60px;
+    margin-top: 25px;
 	}
 }
 @media only screen and (max-width: 600px){
@@ -281,14 +282,6 @@
 	.networks-adaptiv div{
 		height: 50px;
 		width: 50px;
-	}
-	.we-invite-content span{
-		font-size: 1.6em;
-	}
-	.we-invite-content button{
-		width: 200px;
-		height: 60px;
-		font-size: 1.4em;
 	}
 	.calc-format__label{
 		display: block;

@@ -99,9 +99,9 @@
 		text-transform: uppercase;
 		color: #fff;
 		border-bottom: 1px solid rgba(255,255,255,.2);
-		font-size: 1.6em;
+		font-size: 24px;
 		box-sizing: border-box;
-		padding:25px 0;
+		padding:22px 0;
 	}
 	.header-adaptiv__main__start{
 		justify-content: flex-start;
@@ -141,14 +141,15 @@
 	}
 	.we-invite-content span{
 		margin-right: 0;
-		font-size: 3em;
+		font-size: 24px;
 		width: 80%;
-		margin-bottom: 25px;
+		
 	}
-	.we-invite-content button{
-		width: 250px;
-		height: 70px;
-		font-size: 1.6em;
+	.we-invite-content button {
+    font-size: 22px;
+    width: 220px;
+    height: 60px;
+    margin-top: 25px;
 	}
 	.footer-wrapper{
 		padding-top: 0;
@@ -267,14 +268,6 @@
 		font-size: 1.2em;
 		line-height: 1.2em;
 	}
-	.we-invite-content span{
-		font-size: 1.8em;
-	}
-	.we-invite-content button{
-		width: 200px;
-		height: 60px;
-		font-size: 1.3em;
-	}
 	
 }
 @media only screen and (max-width: 460px){
@@ -297,5 +290,8 @@
 	.med{
 		margin-right: 0;
 		width: 100%;
+	}
+	.we-invite-content span{
+		width: 80%;
 	}
 }

@@ -98,15 +98,24 @@
 				<div class="flex-block">
 					<select class="form-time">
 						<option  hidden disabled selected>Время</option>
+						<option value="">Утреннее</option>
+						<option value="">Дневное</option>
+						<option value="">Вечернее</option>
 					</select>
 					<input placeholder="Дата" type="" name="" id="form-note-date" class="form-date ">
 				</div>
 				<div class="flex-block">
 					<select class="form-course">
 						<option  hidden disabled selected>Курс</option>
+						<option value="">Теоретический</option>
+						<option value="">Практический</option>
+						<option value="">Ускоренный(1,5мес)</option>
 					</select>
 					<select class="form-category">
 						<option  hidden disabled selected>Катег.</option>
+						<option value="">"А"-Мотоцикл</option>
+						<option value="">"В"-Автомобиль</option>
+						<option value="">Обучение инструкторов</option>
 					</select>
 				</div>
 				<button>отправить</button>
@@ -120,14 +129,14 @@
 					<ul>
 						<li><a class="flex-block" href="index-price.html"><span>цены</span> ></a></li>
 						<li><a class="flex-block" href="index-about-us.html"><span>о нас</span> ></a></li>
-						<li><a class="flex-block" href="index-adventages.html"><span>преимущества</span> ></a></li>
+						<li><a class="flex-block" href="index-adventages-set-note.html"><span>преимущества</span> ></a></li>
 						<li><a class="flex-block" href="index-schedule.html"><span>расписание</span> ></a></li>
 						<li><a href="#calc" class="calc-start flex-block" ><span>калькулятор</span> ></a></li>
 						<li><a class="flex-block" href="index-review.html"><span>отзывы</span> ></a></li>
 						<li><a class="flex-block" href="index-instructors.html"><span>инструкторы</span> ></a></li>
 						<li><a class="flex-block" href="index-contacts.html"><span>контакты</span> ></a></li>
 						<li><a class="payment flex-block" ><span>оплата онлайн</span> ></a></li>
-						<li><a class="flex-block" href=""><span>филиалы</span> ></a></li>
+						<li><a class="flex-block" href="index-contacts.html"><span>филиалы</span> ></a></li>
 					</ul>
 				</div>
 				<div class="header-adaptiv__main__start flex-block">
@@ -163,8 +172,10 @@
 						<span>Оплата онлайн</span>
 					</div>
 					<div class="branches">
-						<img src="img/branches.svg" alt="">
-						<span>Филиалы</span>
+						<a href="index-contacts.html">
+							<img src="img/branches.svg" alt="">
+							<span>Филиалы</span>
+						</a>
 					</div>
 			</div>
 		</div>
@@ -179,7 +190,7 @@
 				<ul class="navi flex-block">
 					<li><a href="index-price.html">цены</a></li>
 					<li><a href="index-about-us.html">о нас</a></li>
-					<li><a href="index-adventages.html">преимущества</a></li>
+					<li><a href="index-adventages-set-note.html">преимущества</a></li>
 					<li><a href="index-schedule.html">расписание</a></li>
 					<li><a href="#calc" class="calc-start">калькулятор</a></li>
 					<li><a href="index-review.html">отзывы</a></li>
@@ -210,7 +221,7 @@
 						<select class="form-course">
 							<option  hidden disabled selected>Курс</option>
 							<option value="">Теоретический</option>
-							<option value="">Правтический</option>
+							<option value="">Практический</option>
 							<option value="">Ускоренный(1,5 мес.)</option>
 						</select>
 						<select class="form-category">
@@ -382,7 +393,7 @@
 	<div class="out-stidy-video flex-block">
 		<div class="out-stidy-video-play">
 			<a class="popup-youtube flex-block open-link-popup" href="#movie">
-				<img src="img/play.png" alt="">
+				<img src="img/play.svg" alt="">
 				<span>Процесс обучения</span>
 			</a>
 		</div>

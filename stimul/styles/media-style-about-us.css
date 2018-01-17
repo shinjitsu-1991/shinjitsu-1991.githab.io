@@ -28,7 +28,7 @@
 		height: 180px;
 	}
 	.we-invite-content span{
-		font-size: 2.4em;
+		font-size: 24px;
 	}
 }
 @media only screen and (max-width: 960px){
@@ -101,9 +101,9 @@
 		text-transform: uppercase;
 		color: #fff;
 		border-bottom: 1px solid rgba(255,255,255,.2);
-		font-size: 1.6em;
+		font-size: 24px;
 		box-sizing: border-box;
-		padding:25px 0;
+		padding:22px 0;
 	}
 	.header-adaptiv__main__start{
 		justify-content: flex-start;
@@ -137,7 +137,6 @@
 		text-decoration: none;
 	}
 	.we-invite-content span{
-		font-size: 2.3em;
 		margin-right: 0;
 		width: 60%;
 	}
@@ -145,10 +144,11 @@
 		flex-direction: column;
 		align-items: flex-start;
 	}
-	.we-invite-content button{
-		margin-top: 24px;
-		font-size: 1.875em;
-		padding: 17px 35px;
+	.we-invite-content button {
+    font-size: 22px;
+    width: 220px;
+    height: 60px;
+    margin-top: 25px;
 	}
 	.footer-wrapper{
 		padding-top: 0;
@@ -274,15 +274,14 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.galery__row{
+		margin-bottom: 10px;
+	}
 	.galery__row:not(:last-child){
-		margin-right: 10px;
+		margin-right: 0px;
 	}
 	.row-item:not(:last-child){
 		margin-bottom: 10px;
-	}
-	.we-invite-content button{
-		font-size: 1.6em;
-		padding: 15px 30px;
 	}
 }
 @media only screen and (max-width: 480px){
@@ -311,9 +310,8 @@
 	}
 }
 @media only screen and (max-width: 430px){
-	.we-invite-content span{
-		font-size: 2.2em;
-	}
+	
+
 }
 @media only screen and (max-width: 390px){
 	.header-adaptiv__main button{
@@ -357,6 +355,6 @@
 		font-size: 1.2em;
 	}
 	.we-invite-content span{
-		font-size: 1.8em;
+		width: 100%;
 	}
 }

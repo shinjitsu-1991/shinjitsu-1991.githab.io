@@ -98,15 +98,24 @@
 				<div class="flex-block">
 					<select class="form-time">
 						<option  hidden disabled selected>Время</option>
+						<option value="">Утреннее</option>
+						<option value="">Дневное</option>
+						<option value="">Вечернее</option>
 					</select>
 					<input placeholder="Дата" type="" name="" id="form-note-date" class="form-date ">
 				</div>
 				<div class="flex-block">
 					<select class="form-course">
 						<option  hidden disabled selected>Курс</option>
+						<option value="">Теоретический</option>
+						<option value="">Практический</option>
+						<option value="">Ускоренный(1,5мес)</option>
 					</select>
 					<select class="form-category">
 						<option  hidden disabled selected>Катег.</option>
+						<option value="">"А"-Мотоцикл</option>
+						<option value="">"В"-Автомобиль</option>
+						<option value="">Обучение инструкторов</option>
 					</select>
 				</div>
 				<button>отправить</button>
@@ -127,7 +136,7 @@
 						<li><a class="flex-block" href="index-instructors.html"><span>инструкторы</span> ></a></li>
 						<li><a class="flex-block" href="index-contacts.html"><span>контакты</span> ></a></li>
 						<li><a class="payment flex-block" ><span>оплата онлайн</span> ></a></li>
-						<li><a class="flex-block" href=""><span>филиалы</span> ></a></li>
+						<li><a class="flex-block" href="index-contacts.html"><span>филиалы</span> ></a></li>
 					</ul>
 				</div>
 				<div class="header-adaptiv__main__start flex-block">
@@ -163,8 +172,10 @@
 						<span>Оплата онлайн</span>
 					</div>
 					<div class="branches">
-						<img src="img/branches.svg" alt="">
-						<span>Филиалы</span>
+						<a href="index-contacts.html">
+							<img src="img/branches.svg" alt="">
+							<span>Филиалы</span>
+						</a>
 					</div>
 			</div>
 		</div>
