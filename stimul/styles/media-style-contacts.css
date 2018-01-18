@@ -163,6 +163,7 @@
 		padding-bottom: 40px;
 	}
 	.footer-adaptiv li a{
+		font-size: 16px;
 		justify-content: space-between;
 		color: #fff;
 		text-transform: uppercase;
@@ -381,6 +382,10 @@
 	}
 	.main-content__form button{
 		font-size: 1.1em;
+	}
+	.footer-adaptiv{
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 @media only screen and (max-width: 360px){

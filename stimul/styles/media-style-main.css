@@ -551,6 +551,7 @@
 		text-decoration: none;
 		border-bottom: 1px solid rgba(255,255,255,.2);
 		padding:18px 0 20px 0;
+		font-size: 16px;
 	}
 }
 @media only screen and (max-width: 750px){
@@ -863,6 +864,10 @@
 	.footer-social-item .item-3{
 		height: 60px;
 		width: 60px;
+	}
+	.footer-adaptiv{
+		padding-right: 0;
+		padding-left: 0;
 	}
 	.programs-content-item{
 		width: 300px;

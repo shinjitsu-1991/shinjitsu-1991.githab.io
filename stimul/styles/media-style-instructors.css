@@ -222,6 +222,7 @@
 		padding-bottom: 40px;
 	}
 	.footer-adaptiv li a{
+		font-size: 16px;
 		justify-content: space-between;
 		color: #fff;
 		text-transform: uppercase;
@@ -305,6 +306,10 @@
 	.footer-social-item .item-3{
 		height: 60px;
 		width: 60px;
+	}
+	.footer-adaptiv{
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 @media only screen and (max-width: 360px){

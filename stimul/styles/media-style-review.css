@@ -226,6 +226,7 @@
 		padding-bottom: 40px;
 	}
 	.footer-adaptiv li a{
+		font-size: 16px;
 		justify-content: space-between;
 		color: #fff;
 		text-transform: uppercase;
@@ -338,6 +339,10 @@
 	.bx-pagination-conteiner li{
 		height: 35px;
 		width: 35px;
+	}
+	.footer-adaptiv{
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 @media only screen and (max-width: 360px){
