@@ -9,6 +9,11 @@
 	src:url(../fonts/MyriadPro-Bold.otf);
 	font-weight:600;
 }
+@font-face{
+	font-family:postal;
+	src:url(../fonts/postal.ttf);
+	font-weight:400;
+}
 .flex-block{
 	display: flex;
 	flex-direction: row;
@@ -168,3 +173,73 @@ footer .left a:hover{
 }
 
 /*-------------------FOOTER END-----------------*/
+/*-------------------prev-page------------------*/
+.prev-page{
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+}
+.prev-page .content{
+	color: #fff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.prev-page .content span{
+	text-align: center;
+	display: block;
+	font-size: 36px;
+}
+.prev-page .logo{
+	padding-bottom: 35px;
+	font-family:postal;
+}
+.prev-page .content span.small{
+	font-size: 19px;
+}
+.prev-page .menu{
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	list-style: none;
+	height: 60px;
+}
+.prev-page .menu a{
+	text-decoration: none;
+	color: #fff;
+}
+.prev-page .menu span{
+	font-size: 12px;
+}
+.prev-page .menu div{
+	display: none;
+}
+.prev-page .menu li{
+	cursor: pointer;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+}
+.prev-page .menu li span.icon{
+	font-size: 34px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
